@@ -1,0 +1,11 @@
+---
+category: concept
+tags: [TiDB]
+---
+# CIStr
+
+大小写无关字符串。
+
+## Links
+
+- [代码](https://github.com/pingcap/parser/blob/44f6be1df1c40f366a708a5c3bb88e9a64482e44/model/model.go#L1016)

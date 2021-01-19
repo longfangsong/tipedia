@@ -41,33 +41,33 @@
 
 - 查文档，但是
 
-    - 文档更多是面向用户的，有些东西是实现细节或者内部工作流程，文档里并没有
+  - 文档更多是面向用户的，有些东西是实现细节或者内部工作流程，文档里并没有
 
 - 看代码，但是
 
-    - 有些制度上的东西和代码没关系
+  - 有些制度上的东西和代码没关系
 
-    - 有些简称只是口头上说的，代码里并没有
+  - 有些简称只是口头上说的，代码里并没有
 
-    - 很多概念都有二义性，而代码里却并没有消歧义页面
+  - 很多概念都有二义性，而代码里却并没有消歧义页面
 
-      比如 TiKV 和 client-rust 里加起来至少有三种 `Mutation`。
+    比如 TiKV 和 client-rust 里加起来至少有三种 `Mutation`。
 
-      再比如 Commit 可以指：
+    再比如 Commit 可以指：
 
-        - 事务的一整个 Commit 过程
-        - 2pc 的第二阶段
-        - raft 的 Commit 过程
+    - 事务的一整个 Commit 过程
+    - 2pc 的第二阶段
+    - raft 的 Commit 过程
 
-      分辨当前上下文中是哪一个概念需要费一番功夫，找到对应的代码又不能直接无脑全文搜索又要费一番功夫
+    分辨当前上下文中是哪一个概念需要费一番功夫，找到对应的代码又不能直接无脑全文搜索又要费一番功夫
 
-    - 代码分布在多个仓库里，找起来比较麻烦
+  - 代码分布在多个仓库里，找起来比较麻烦
 
 - 问人，但是
 
-    - 社恐表示拒绝（是我了😭）
-    - 不一定有人可以立即回答
-    - 打扰他人工作
+  - 社恐表示拒绝（是我了😭）
+  - 不一定有人可以立即回答
+  - 打扰他人工作
 
 实际上从 [领域驱动设计](https://zh.wikipedia.org/wiki/%E9%A0%98%E5%9F%9F%E9%A9%85%E5%8B%95%E8%A8%AD%E8%A8%88) 的观点来看，所有这些概念都是我们的 [Ubiquitous Language](https://martinfowler.com/bliki/UbiquitousLanguage.html) 的一部分，我们平时工作一般都是在某个 [Bounded Context](https://martinfowler.com/bliki/BoundedContext.html) 下，对于其中的概念我们都非常熟悉，但是对于超出我们 [Conceptual Contours](http://ddd.fed.wiki.org/view/conceptual-contours) 的概念，我们可能就不太了解了，即使对于从“听明白别人在说什么”到“问题的诊断”，了解这些概念都是必须的。
 
@@ -129,7 +129,7 @@ Unofficial 的优势如下：
 
 #### 通过 Github Issue
 
-用 [这个模版](https://github.com/longfangsong/tipedia/issues/new?assignees=&labels=contribution&template=contribute-content.md&title=%5BContribute%5D+Title+here) 发一个 issue, 
+用 [这个模版](https://github.com/longfangsong/tipedia/issues/new?assignees=&labels=contribution&template=contribute-content.md&title=%5BContribute%5D+Title+here) 发一个 issue,
 @baipiao-bot 会 handle 接下来的事情。
 
 #### 通过 Github Pull Request

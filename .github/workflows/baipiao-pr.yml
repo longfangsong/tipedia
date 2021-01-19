@@ -1,0 +1,14 @@
+name: Execute on issue events
+on:
+  pull_request:
+    types: [opened, closed, reopened]
+
+jobs:
+  run-baipiao-bot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run the bot
+        uses: docker://longfangsong/github-wiki-bot:latest
+        env:
+          JSON: ${{ toJson(github) }}
+          BAIPIAO_BOT_TOKEN: ${{ secrets.BAIPIAO_BOT_TOKEN }}
