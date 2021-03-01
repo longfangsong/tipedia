@@ -1,0 +1,6 @@
+<h1>Datum</h1>
+<p>A data box holds different kind of data，有点像 Rust 中的 enum。</p>
+<h2>Links</h2>
+<ul>
+<li><a href="https://github.com/pingcap/tidb/blob/7c817195688833291fcabf01b0ab372170f19347/types/datum.go#L59">代码</a></li>
+</ul>
