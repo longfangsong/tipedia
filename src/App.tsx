@@ -81,7 +81,7 @@ function App() {
     const handleDrawerClose = () => setOpen(false);
     const handleBackDropClose = () => setSearch("");
     return (
-        <Router basename={process.env.PUBLIC_URL}>
+        <Router>
             <div className={classes.root}>
                 <CssBaseline/>
                 <AppBar handleDrawerOpen={handleDrawerOpen} open={open} onSearch={setSearch}/>

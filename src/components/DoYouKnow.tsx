@@ -8,6 +8,7 @@ import Typography from '@material-ui/core/Typography';
 import {useTranslation} from "react-i18next";
 import {fetchSearchIndex, SearchIndex} from '../model/searchIndex';
 import {useEffectOnce} from 'react-use';
+import {useHistory} from "react-router";
 
 const useStyles = makeStyles({
     root: {
@@ -20,6 +21,7 @@ const useStyles = makeStyles({
 
 export default function DoYouKnow() {
     const {t, i18n} = useTranslation();
+    const history = useHistory();
     const [doYouKnow, setDoYouKnow] = useState<SearchIndex | null>(null);
     useEffectOnce(() => {
             fetchSearchIndex(i18n.language).then(it => {
@@ -49,7 +51,9 @@ export default function DoYouKnow() {
             <CardActions>
                 <Button size="small"
                         variant="contained"
-                        href={process.env.PUBLIC_URL + `/prerendered/${doYouKnow?.path}`}
+                        onClick={() => {
+                            history.replace(`/prerendered/${doYouKnow?.path}`)
+                        }}
                         disableElevation>
                     {t("FindOutHere")}
                 </Button>

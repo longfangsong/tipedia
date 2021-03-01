@@ -3,16 +3,38 @@
 <p>这是一个<strong>非官方</strong>的 TiDB 相关概念的百科，目标收录所有 TiDB 开发/维护/使用过程中可能会碰到的 概念/配置项/其他 等等。</p>
 <h2>为什么会有这个东西</h2>
 <p>在工作中，无论是 读代码 、review 设计文档、看事故复盘、查监控还是参与他人讨论，我们都会常常碰到我们不甚了解的概念：</p>
-<p><a href="https://imgtu.com/i/6PfIMR"><img src="https://s3.ax1x.com/2021/03/01/6PfIMR.png" alt="6PfIMR.png" /></a></p>
-<p><img src="https://s3.ax1x.com/2021/03/01/6PfhRJ.png" alt="what-is-2" /></p>
-<p><img src="https://s3.ax1x.com/2021/03/01/6Pf4z9.png" alt="what-is-3" /></p>
-<p><img src="https://s3.ax1x.com/2021/03/01/6PffG4.png" alt="what-is-4" /></p>
-<p><img src="https://s3.ax1x.com/2021/03/01/6PfHZ6.png" alt="what-is-6" /></p>
-<p><img src="https://s3.ax1x.com/2021/03/01/6PfbdK.png" alt="what-is-9" /></p>
-<p><img src="https://s3.ax1x.com/2021/03/01/6PfqIO.png" alt="what-is-10" /></p>
-<p>~~下面两个是来搞笑的。~~就算是搞笑的也很有价值！</p>
-<p><img src="https://s3.ax1x.com/2021/03/01/6PfOiD.jpg" alt="what-is-11" /></p>
-<p><a href="https://imgtu.com/i/6PhH6s"><img src="https://s3.ax1x.com/2021/03/01/6PhH6s.png" alt="6PhH6s.png" /></a></p>
+<p>（以下内容收集自企业微信）</p>
+<blockquote>
+<p>What is amend?</p>
+</blockquote>
+<blockquote>
+<p>DM 是什么的简称呀。</p>
+</blockquote>
+<blockquote>
+<p>这个 schrodinger_test 是啥？</p>
+</blockquote>
+<p>（以下内容收集自 Slack）</p>
+<blockquote>
+<p>请问这个 hot_peer 是做什么用的呀？</p>
+</blockquote>
+<blockquote>
+<p>ndv 是啥呀？</p>
+</blockquote>
+<blockquote>
+<p>sorry, so does the term &quot;amend transaction&quot; mean the transaction altering the metadata of a table/database?</p>
+</blockquote>
+<p>（以下内容收集自 google doc）</p>
+<blockquote>
+<p>distinct filter 的含义是什么，搜了下文档没搜到。</p>
+</blockquote>
+<p><del>下面两个是来搞笑的。</del> 就算是搞笑的也很有价值！</p>
+<p>（搜集自微信）</p>
+<blockquote>
+<p>弱问 413 是什么</p>
+</blockquote>
+<blockquote>
+<p>不知道渡渡鸟是什么</p>
+</blockquote>
 <p>这些提问的人中许多都是经验丰富的优秀工程师，就连他们都不能完全了解整个系统中所有的概念，更不用说像本人这样又蠢又笨的小白😭和想要第一次做贡献的 contributor 了。</p>
 <p>在平时如果碰到这些不太了解的概念，我会：</p>
 <ul>
@@ -76,26 +98,30 @@
 <h2>子项目</h2>
 <h3>What</h3>
 <p>收录概念。包括代码里的结构体/enum/变量/组件/配置项等等的名称。解答 “XXX <strong>是什么</strong>” 的问题。</p>
-<h3>How</h3>
+<h3>How(WIP)</h3>
 <p>告诉你想要做到一件事应该怎么去做，比如“<strong>如何</strong>给 TiDB 添加一个内存表”，“<strong>如何</strong>打印 TiDB/TiKV 间交换的数据”。把如何做这些事手册化之后，contribution 的门槛就非常低了。（比如我把“如何给 TiDB 添加一个内存表”写好之后，在做 TiDB Transaction related views 的时候，我准备好数据源，然后开一个 issue，就可以直接把加表的任务甩给外部 contributor 做）</p>
-<h3>Why</h3>
+<h3>Why(WIP)</h3>
 <p>解释一些设计上的选择的原因，比如 “<strong>为啥</strong> <code>statements_summary</code> 和 <code>statements_summary_history</code> 要分成两张表”</p>
-<h3>Where</h3>
+<h3>Where(WIP)</h3>
 <p>帮助找到完成某些特定任务的代码在哪里，比如 “查询过程中 SQL 里的列名<strong>在哪里</strong>被编码为对应KV数据”，“打到 TiKV 上的请求<strong>在哪里</strong>对应到自己上面的某个 region 身上”</p>
-<h3>What if</h3>
+<h3>What if(WIP)</h3>
 <p>告诉我们如果 XXX 时 会发生什么，比如“<strong>如果</strong>一个 TiKV 节点挂掉<strong>会发生什么</strong>”</p>
 <h2>怎么用</h2>
 <h3>直接 search 你想知道的东西</h3>
 <p>在右上角输入你要查的东西就好了。</p>
 <p><a href="https://imgtu.com/i/6P4RgJ"><img src="https://s3.ax1x.com/2021/03/01/6P4RgJ.png" alt="6P4RgJ.png" /></a></p>
 <h3>贡献你知道的东西</h3>
-<p>直接给这个仓库发pr！由于你只是需要写/编辑一个 markdown 文件，你甚至不需要把这个仓库 clone 到本地。在对应语言的对应子项目</p>
-<p>下面直接新增/修改就行了。</p>
+<h4>通过 Github Issue</h4>
+<p>用 <a href="https://github.com/longfangsong/tipedia/issues/new?assignees=&amp;labels=contribution&amp;template=contribute-content.md&amp;title=%5BContribute%5D+Title+here">这个模版</a> 发一个 issue,
+@baipiao-bot 会 handle 接下来的事情。</p>
+<h4>通过 Github Pull Request</h4>
+<p>直接给这个仓库发pr！由于你只是需要写/编辑一个 markdown 文件，你甚至不需要把这个仓库 clone 到本地。在对应语言的对应子项目
+下面直接新增/修改就行了。</p>
 <p>一般一个 markdown 的内容如下：</p>
 <pre><code class="language-markdown">---
-category: 词条类型，比如 `concept`, `component`, `config-item` 等等
+category: 词条类型，比如 concept, component, config-item 等等
 aliases: [] 词条的别称和简称
-tags: [] 任意 tag 比如 `TiDB`, `TiKV`, `sig/txn` 都是很好的tag
+tags: [] 任意 tag 比如 TiDB, TiKV, sig/txn 都是很好的tag
 ---
 # 词条名
 
