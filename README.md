@@ -102,7 +102,7 @@ Unofficial 的优势如下：
 
 收录概念。包括代码里的结构体/enum/变量/组件/配置项等等的名称。解答 “XXX **是什么**” 的问题。
 
-### How(WIP)
+### How
 
 告诉你想要做到一件事应该怎么去做，比如“**如何**给 TiDB 添加一个内存表”，“**如何**打印 TiDB/TiKV 间交换的数据”。把如何做这些事手册化之后，contribution 的门槛就非常低了。（比如我把“如何给 TiDB 添加一个内存表”写好之后，在做 TiDB Transaction related views 的时候，我准备好数据源，然后开一个 issue，就可以直接把加表的任务甩给外部 contributor 做）
 

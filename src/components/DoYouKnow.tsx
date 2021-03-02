@@ -13,19 +13,20 @@ import {useHistory} from "react-router";
 const useStyles = makeStyles({
     root: {
         minWidth: 400,
+        marginTop: 40,
     },
     title: {
         fontSize: 14,
     },
 });
 
-export default function DoYouKnow() {
+export default function DoYouKnow({variant, promote}: { variant: string, promote: string }) {
     const {t, i18n} = useTranslation();
     const history = useHistory();
     const [doYouKnow, setDoYouKnow] = useState<SearchIndex | null>(null);
     useEffectOnce(() => {
             fetchSearchIndex(i18n.language).then(it => {
-                const items = it?.items || [];
+                const items = it?.items.filter(it => it.path.startsWith(variant)) || [];
                 setDoYouKnow(items[Math.floor(Math.random() * items.length)]);
                 setInterval((() => {
                     setDoYouKnow(items[Math.floor(Math.random() * items.length)]);
@@ -42,7 +43,7 @@ export default function DoYouKnow() {
                     {t("DoYouKnow")}
                 </Typography>
                 <Typography>
-                    {t("DoYouKnowWhatIs")}
+                    {t(promote)}
                 </Typography>
                 <Typography variant="h5" component="h2">
                     {doYouKnow?.name}

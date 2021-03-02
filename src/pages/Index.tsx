@@ -6,7 +6,8 @@ export function Index() {
     return (
         <Suspense fallback="loading">
             <Description/>
-            <DoYouKnow/>
+            <DoYouKnow variant={"what"} promote={"DoYouKnowWhatIs"}/>
+            <DoYouKnow variant={"how"} promote={"DoYouKnowHowTo"}/>
         </Suspense>
     )
 }
