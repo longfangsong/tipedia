@@ -1,0 +1,6 @@
+<h1>Green GC</h1>
+<p>使得GC过程中可以跳过 raft 层直接resolve lock。</p>
+<h2>Links</h2>
+<ul>
+<li><a href="https://docs.pingcap.com/zh/tidb/stable/garbage-collection-configuration#tikv_gc_scan_lock_mode">文档</a></li>
+</ul>
