@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/tipedia/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/tipedia/static/js/main.83b16d41.chunk.js",
-    "main.js.map": "/tipedia/static/js/main.83b16d41.chunk.js.map",
-    "runtime-main.js": "/tipedia/static/js/runtime-main.ef47ef16.js",
-    "runtime-main.js.map": "/tipedia/static/js/runtime-main.ef47ef16.js.map",
-    "static/js/2.9f5e390c.chunk.js": "/tipedia/static/js/2.9f5e390c.chunk.js",
-    "static/js/2.9f5e390c.chunk.js.map": "/tipedia/static/js/2.9f5e390c.chunk.js.map",
-    "static/js/3.3600a97a.chunk.js": "/tipedia/static/js/3.3600a97a.chunk.js",
-    "static/js/3.3600a97a.chunk.js.map": "/tipedia/static/js/3.3600a97a.chunk.js.map",
+    "main.js": "/tipedia/static/js/main.1e2705ee.chunk.js",
+    "main.js.map": "/tipedia/static/js/main.1e2705ee.chunk.js.map",
+    "runtime-main.js": "/tipedia/static/js/runtime-main.906e4321.js",
+    "runtime-main.js.map": "/tipedia/static/js/runtime-main.906e4321.js.map",
+    "static/js/2.3c662c6d.chunk.js": "/tipedia/static/js/2.3c662c6d.chunk.js",
+    "static/js/2.3c662c6d.chunk.js.map": "/tipedia/static/js/2.3c662c6d.chunk.js.map",
+    "static/js/3.1215d067.chunk.js": "/tipedia/static/js/3.1215d067.chunk.js",
+    "static/js/3.1215d067.chunk.js.map": "/tipedia/static/js/3.1215d067.chunk.js.map",
     "index.html": "/tipedia/index.html",
     "static/css/main.6dea0f05.chunk.css.map": "/tipedia/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.9f5e390c.chunk.js.LICENSE.txt": "/tipedia/static/js/2.9f5e390c.chunk.js.LICENSE.txt",
+    "static/js/2.3c662c6d.chunk.js.LICENSE.txt": "/tipedia/static/js/2.3c662c6d.chunk.js.LICENSE.txt",
     "static/media/getFetch.cjs": "/tipedia/static/media/getFetch.d7d6010d.cjs"
   },
   "entrypoints": [
-    "static/js/runtime-main.ef47ef16.js",
-    "static/js/2.9f5e390c.chunk.js",
+    "static/js/runtime-main.906e4321.js",
+    "static/js/2.3c662c6d.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.83b16d41.chunk.js"
+    "static/js/main.1e2705ee.chunk.js"
   ]
 }

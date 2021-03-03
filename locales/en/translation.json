@@ -11,5 +11,11 @@
   "DoYouKnowHowTo": "Do you know how to",
   "FindOutHere": "Find Out Here!",
   "All": "",
-  "items": "items in all"
+  "items": "items in all",
+  "Name": "Name",
+  "Category": "Category",
+  "Tags": "Tags",
+  "concept": "concept",
+  "feature": "feature",
+  "config-item": "Config Item"
 }
