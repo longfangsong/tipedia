@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/tipedia/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/tipedia/static/js/main.202f6a6a.chunk.js",
-    "main.js.map": "/tipedia/static/js/main.202f6a6a.chunk.js.map",
+    "main.js": "/tipedia/static/js/main.a0102a82.chunk.js",
+    "main.js.map": "/tipedia/static/js/main.a0102a82.chunk.js.map",
     "runtime-main.js": "/tipedia/static/js/runtime-main.906e4321.js",
     "runtime-main.js.map": "/tipedia/static/js/runtime-main.906e4321.js.map",
     "static/js/2.3c662c6d.chunk.js": "/tipedia/static/js/2.3c662c6d.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.906e4321.js",
     "static/js/2.3c662c6d.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.202f6a6a.chunk.js"
+    "static/js/main.a0102a82.chunk.js"
   ]
 }
