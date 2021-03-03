@@ -1,0 +1,13 @@
+<h1>PD 依赖 etcd</h1>
+<p>原因主要有：</p>
+<ul>
+<li>简单方便</li>
+<li>稳定</li>
+<li>社区支持</li>
+<li>TiKV/TiDB 本身目前不具备一部分 etcd 的功能，如 lease/watch</li>
+</ul>
+<h2>Links</h2>
+<ul>
+<li><a href="https://twitter.com/lemon_hx/status/1366760653835300866?s=21">Twitter 上的讨论</a>
+（评论区捕捉 CTO）</li>
+</ul>

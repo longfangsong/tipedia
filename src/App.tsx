@@ -14,6 +14,8 @@ import {Prerendered} from "./pages/Prerendered";
 import {AppBar} from "./components/AppBar";
 import {SearchList} from './components/SearchList';
 import {Backdrop} from "@material-ui/core";
+import {Why} from "./pages/Why";
+import {How} from './pages/How';
 
 const drawerWidth = 240;
 
@@ -108,6 +110,12 @@ function App() {
                         <Switch>
                             <Route exact path="/">
                                 <Index/>
+                            </Route>
+                            <Route exact path="/how">
+                                <How/>
+                            </Route>
+                            <Route exact path="/why">
+                                <Why/>
                             </Route>
                             <Route path="/prerendered/:path">
                                 <Prerendered/>

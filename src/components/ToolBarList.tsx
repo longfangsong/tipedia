@@ -41,13 +41,13 @@ export function ToolBarList() {
                 <ListItemText primary={t('Random')}/>
             </ListItem>
             <Divider/>
-            <ListItem button>
+            <ListItem button onClick={() => history.replace(`/how`)}>
                 <ListItemIcon>
                     <FormatListNumberedIcon/>
                 </ListItemIcon>
                 <ListItemText primary={t('How')}/>
             </ListItem>
-            <ListItem button>
+            <ListItem button onClick={() => history.replace(`/why`)}>
                 <ListItemIcon>
                     <HelpIcon/>
                 </ListItemIcon>

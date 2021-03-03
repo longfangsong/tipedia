@@ -8,6 +8,9 @@ import {useEffectOnce} from "react-use";
 import {TagColor} from "../model/tag";
 
 const useStyles = makeStyles({
+    container: {
+        maxWidth: 650,
+    },
     table: {
         maxWidth: 650,
     },
@@ -43,7 +46,7 @@ export default function AllDataTable({variant}: { variant: string }) {
     );
 
     return (
-        <TableContainer component={Paper}>
+        <TableContainer component={Paper} className={classes.container}>
             <Table className={classes.table} aria-label="table">
                 <TableHead>
                     <TableRow>
