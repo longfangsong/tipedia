@@ -1,0 +1,4 @@
+<h1>ordinary</h1>
+<p>在 PD 中，一般认为 TiKV 所对应的 Engine/Store 是 ordinary 的，相对的，TiFlash 对应的Engine/Store 是 special 的。</p>
+<h2>太史公曰</h2>
+<p>这是 engine 歧视！TiFlash Lives Matter！😏</p>
