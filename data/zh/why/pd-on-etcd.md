@@ -1,7 +1,7 @@
 ---
 category: design-idea
 aliases: []
-tags: [pd, etcd]
+tags: [PD, etcd]
 ---
 # PD 依赖 etcd
 
