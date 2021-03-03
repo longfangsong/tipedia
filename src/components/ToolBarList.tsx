@@ -23,7 +23,9 @@ export function ToolBarList() {
     });
     return (
         <List>
-            <ListItem button component="a" href={process.env.PUBLIC_URL + "/"}>
+            <ListItem button component="a" onClick={() => {
+                history.replace(`/`)
+            }}>
                 <ListItemIcon>
                     <HomeIcon/>
                 </ListItemIcon>

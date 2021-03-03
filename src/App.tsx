@@ -75,7 +75,7 @@ const useStyles = makeStyles((theme) => ({
 
 function App() {
     const classes = useStyles();
-    const [open, setOpen] = useState(true);
+    const [open, setOpen] = useState(window.innerWidth > 420);
     const [search, setSearch] = useState("");
     const handleDrawerOpen = () => setOpen(true);
     const handleDrawerClose = () => setOpen(false);

@@ -13,7 +13,10 @@ import {LanguageButton} from "./LanguageButton";
 const drawerWidth = 240;
 const useStyles = makeStyles((theme) => ({
     toolbar: {
-        paddingRight: 24, // keep right padding when drawer closed
+        paddingRight: 24,
+        [theme.breakpoints.down('sm')]: {
+            paddingRight: 0,
+        },
     },
     title: {
         flexGrow: 1,
@@ -34,7 +37,9 @@ const useStyles = makeStyles((theme) => ({
         }),
     },
     menuButton: {
-        marginRight: 36,
+        [theme.breakpoints.up('sm')]: {
+            marginRight: 36,
+        },
     },
     menuButtonHidden: {
         display: 'none',
@@ -47,11 +52,9 @@ const useStyles = makeStyles((theme) => ({
             backgroundColor: fade(theme.palette.common.white, 0.25),
         },
         marginLeft: 0,
-        minWidth: 300,
-        width: '100%',
+        width: 'auto',
         [theme.breakpoints.up('sm')]: {
             marginLeft: theme.spacing(1),
-            width: 'auto',
         },
     },
     searchIcon: {

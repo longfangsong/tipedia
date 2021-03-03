@@ -12,8 +12,8 @@ import {useHistory} from "react-router";
 
 const useStyles = makeStyles({
     root: {
-        minWidth: 400,
-        marginTop: 40,
+        maxWidth: 600,
+        marginBottom: 40,
     },
     title: {
         fontSize: 14,

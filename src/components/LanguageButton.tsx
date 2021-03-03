@@ -3,8 +3,16 @@ import TranslateIcon from "@material-ui/icons/Translate";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import React, {useState} from "react";
 import {useTranslation} from "react-i18next";
-
+import {makeStyles} from "@material-ui/core/styles";
+const useStyles = makeStyles((theme) => ({
+    languageName: {
+        [theme.breakpoints.down('xs')]: {
+            display: "none"
+        },
+    },
+}));
 export function LanguageButton() {
+    const classes = useStyles();
     const [anchorEl, setAnchorEl] = useState(null);
     const {i18n} = useTranslation();
 
@@ -35,9 +43,7 @@ export function LanguageButton() {
             <Button color="inherit" aria-controls="language-menu" aria-haspopup="true"
                     onClick={handleClick}>
                 <TranslateIcon/>
-                &nbsp;
-                <span>{getLanguageName(i18n.language)}</span>
-                &nbsp;
+                <span className={classes.languageName}>{getLanguageName(i18n.language)}</span>
                 <ExpandMoreIcon/>
             </Button>
             <Menu

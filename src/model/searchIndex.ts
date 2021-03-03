@@ -3,6 +3,8 @@ import Fuse from "fuse.js";
 export interface SearchIndex {
     name: string,
     aliases: Array<string>,
+    tags: Array<string>,
+    category: string,
     content_for_search: string,
     path: string
 }
