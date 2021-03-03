@@ -1,0 +1,7 @@
+<h1>启用 Golang 代码中的某个 FailPoint</h1>
+<p>使用 <code>failpoint.Enable</code> 使能对应的 <code>failpoint</code>，并传入对应 expression 控制行为即可。</p>
+<p>详见官博文章。</p>
+<h2>Links</h2>
+<ul>
+<li><a href="https://pingcap.com/blog-cn/golang-failpoint/">官博文章</a></li>
+</ul>
