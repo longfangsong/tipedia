@@ -64,7 +64,7 @@ export default function AllDataTable({variant}: { variant: string }) {
                             <TableCell>{row.tags.map((tag) =>
                                 <span className={classes.tag}
                                       key={tag}
-                                      style={{background: TagColor.get(tag) || "white"}}>{tag}</span>
+                                      style={{background: TagColor.get(tag) || "gray"}}>{tag}</span>
                             )}</TableCell>
                         </TableRow>
                     ))}

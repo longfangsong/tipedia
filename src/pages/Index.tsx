@@ -9,6 +9,7 @@ export function Index() {
             <Description/>
             <DoYouKnow variant={"what"} promote={"DoYouKnowWhatIs"}/>
             <DoYouKnow variant={"how"} promote={"DoYouKnowHowTo"}/>
+            <DoYouKnow variant={"why"} promote={"DoYouKnowWhy"}/>
             <AllDataTable variant={"what"}/>
         </Suspense>
     )
