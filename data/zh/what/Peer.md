@@ -5,7 +5,7 @@ tags: [TiKV, PD, sig/scheduling]
 ---
 # Peer
 
-同一个 [Raft Group](/#/prerendered/what%2FRegion.htmlpart) 中, replica 之间互称 peer。
+同一个 [Raft Group](#/prerendered/what%2FRegion.htmlpart) 中, replica 之间互称 peer。
 
 ## Links
 
