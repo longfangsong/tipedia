@@ -1,0 +1,6 @@
+<h1>CIStr</h1>
+<p>Case-insensitive string.</p>
+<h2>Links</h2>
+<ul>
+<li><a href="https://github.com/pingcap/parser/blob/44f6be1df1c40f366a708a5c3bb88e9a64482e44/model/model.go#L1016">Code</a></li>
+</ul>
