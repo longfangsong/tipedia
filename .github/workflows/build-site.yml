@@ -31,7 +31,7 @@ jobs:
           FOLDER: build
           CLEAN: true
       - name: Unlock
-        uses: longfangsong/acquire-lock-with-issue@alpha
+        uses: longfangsong/acquire-lock-with-issue@beta
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           forceUnlockOnly: true
