@@ -30,3 +30,8 @@ jobs:
           BRANCH: gh-pages
           FOLDER: build
           CLEAN: true
+      - name: Unlock
+        uses: longfangsong/acquire-lock-with-issue@alpha
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          forceUnlockOnly: true
