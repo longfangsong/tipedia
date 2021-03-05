@@ -11,6 +11,7 @@ import QuestionAnswerIcon from '@material-ui/icons/QuestionAnswer';
 import {fetchSearchIndex, SearchIndex} from "../model/searchIndex";
 import {useEffectOnce} from "react-use";
 import {useHistory} from "react-router";
+import {Link} from "react-router-dom";
 
 export function ToolBarList() {
     const history = useHistory();
@@ -46,18 +47,24 @@ export function ToolBarList() {
                     <FormatListNumberedIcon/>
                 </ListItemIcon>
                 <ListItemText primary={t('How')}/>
+                {/*It's for you, Google!*/}
+                <Link to={"/how"}/>
             </ListItem>
             <ListItem button onClick={() => history.replace(`/why`)}>
                 <ListItemIcon>
                     <HelpIcon/>
                 </ListItemIcon>
                 <ListItemText primary={t('Why')}/>
+                {/*It's for you, Google!*/}
+                <Link to={"/why"}/>
             </ListItem>
             <ListItem button>
                 <ListItemIcon>
                     <RoomIcon/>
                 </ListItemIcon>
                 <ListItemText primary={t('Where')}/>
+                {/*It's for you, Google!*/}
+                <Link to={"/where"}/>
             </ListItem>
             <ListItem button>
                 <ListItemIcon>
@@ -73,6 +80,8 @@ export function ToolBarList() {
                     <InfoIcon/>
                 </ListItemIcon>
                 <ListItemText primary={t('Info')}/>
+                {/*It's for you, Google!*/}
+                <Link to={"/prerendered/about%2Findex.htmlpart"}/>
             </ListItem>
         </List>
     );

@@ -6,6 +6,7 @@ import {useHistory} from "react-router";
 import {fetchSearchIndex, SearchIndex} from "../model/searchIndex";
 import {useEffectOnce} from "react-use";
 import {TagColor} from "../model/tag";
+import {Link} from "react-router-dom";
 
 const useStyles = makeStyles({
     container: {
@@ -29,6 +30,10 @@ const useStyles = makeStyles({
         fontWeight: "bold",
         height: 26,
         lineHeight: "20px",
+    },
+    link: {
+        color: "inherit",
+        textDecoration: "none"
     }
 });
 
@@ -61,7 +66,7 @@ export default function AllDataTable({variant}: { variant: string }) {
                             history.replace(`/prerendered/${row.path}`)
                         }}>
                             <TableCell component="th" scope="row">
-                                {row.name}
+                                <Link className={classes.link} to={`/prerendered/${row.path}`}>{row.name}</Link>
                             </TableCell>
                             <TableCell>{t(row.category)}</TableCell>
                             <TableCell>{row.tags.map((tag) =>

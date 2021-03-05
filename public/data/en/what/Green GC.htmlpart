@@ -1,0 +1,6 @@
+<h1>Green GC</h1>
+<p>A feature to enable TiKV to do GC work without the Raft layer.</p>
+<h2>Links</h2>
+<ul>
+<li><a href="https://docs.pingcap.com/zh/tidb/stable/garbage-collection-configuration#tikv_gc_scan_lock_mode">Doc</a></li>
+</ul>

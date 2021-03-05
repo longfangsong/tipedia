@@ -81,7 +81,7 @@ const useStyles = makeStyles((theme) => ({
                 width: '20ch',
             },
         },
-    }
+    },
 }));
 
 interface Props {
