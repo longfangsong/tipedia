@@ -1708,10 +1708,22 @@ label[data-shrink=false] + .MuiInputBase-formControl .MuiInputBase-input:focus::
     transition: width 195ms cubic-bezier(0.4, 0, 0.6, 1) 0ms, margin 195ms cubic-bezier(0.4, 0, 0.6, 1) 0ms;
 }
 
-.jss14 {
-    width: calc(100% - 240px);
+.header-bar, .header-bar.expanded {
+    width: calc(100% - 60px);
     transition: width 225ms cubic-bezier(0.4, 0, 0.6, 1) 0ms, margin 225ms cubic-bezier(0.4, 0, 0.6, 1) 0ms;
+    margin-left: 60px;
+}
+
+.header-bar.collapsed {
+    width: calc(100% - 240px);
     margin-left: 240px;
+}
+
+@media screen and (min-width: 420px) {
+    .header-bar {
+        width: calc(100% - 240px);
+        margin-left: 240px;
+    }
 }
 
 @media (min-width: 600px) {
@@ -1810,11 +1822,21 @@ label[data-shrink=false] + .MuiInputBase-formControl .MuiInputBase-input:focus::
     }
 }
 
-.jss3 {
-    width: 240px;
+.side-bar, .side-bar.collapsed {
+    width: 60px;
     position: relative;
     transition: width 225ms cubic-bezier(0.4, 0, 0.6, 1) 0ms;
     white-space: nowrap;
+}
+
+.side-bar.expanded {
+    width: 240px;
+}
+
+@media screen and (min-width: 420px) {
+    .side-bar {
+        width: 240px;
+    }
 }
 
 .jss4 {
@@ -1884,4 +1906,8 @@ a {
     max-height: calc(100vh - 196px);
     overflow: scroll;
     margin-top: 64px;
+}
+
+#expand-button.collapsed {
+    transform: rotateZ(180deg);
 }
