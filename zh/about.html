@@ -1,0 +1,337 @@
+<html lang="zh">
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" href="https://longfangsong.github.io/tipedia/static/favicon.ico">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="The free encyclopedia for TiDB and related works">
+    <link rel="apple-touch-icon" href="https://longfangsong.github.io/tipedia/static/logo192.png">
+    <link rel="manifest" href="https://longfangsong.github.io/tipedia/static/manifest.json">
+    <link rel="stylesheet" href="https://longfangsong.github.io/tipedia/static/mui.css">
+    
+<link rel="stylesheet" href="https://longfangsong.github.io/tipedia/static/page.css">
+
+    <meta name="google-site-verification" content="eIlbRaKM-jgH9zQg2VFwWY4H-027wQlW6K-TWdEvI1g">
+    <title>Tipedia</title>
+    <script>
+        const site_index = [{"aliases":[],"category":"concept","filename":"CIStr","name":"CIStr","section":"what","summary":"大小写无关字符串。","tags":["TiDB"]},{"aliases":[],"category":"design-idea","filename":"pd-on-etcd","name":"PD 依赖 etcd","section":"why","summary":"原因主要有：","tags":["PD","etcd"]},{"aliases":[],"category":"concept","filename":"LockManager","name":"LockManager","section":"what","summary":"TiKV中用于管理悲观锁的组件。","tags":["transaction","TiKV","Lock"]},{"aliases":["TiKV/TiFlash node"],"category":"词条类型，比如 concept, component, config-item 等等","filename":"Store","name":"Store","section":"what","summary":"一个 tikv-server/tiflash 实例。","tags":[]},{"aliases":[],"category":"concept","filename":"ordinary","name":"ordinary","section":"what","summary":"在 PD 中，一般认为 TiKV 所对应的 Engine/Store 是 ordinary 的，相对的，TiFlash 对应的Engine/Store 是 special 的。","tags":["PD","sig/scheduling"]},{"aliases":["cm"],"category":"concept","filename":"ConcurrencyManager","name":"ConcurrencyManager","section":"what","summary":"TiKV 中用于并发控制和内存锁管理的结构。","tags":["TiKV"]},{"aliases":[],"category":"optimize","filename":"Collapse Rollback","name":"Collapse Rollback","section":"what","summary":"如果一个 key 被连续多次 rollback，我们可以将这些 rollback 合并，只保留最后一个 rollback。以免 write column family 的大量数据拖慢读取。","tags":["TiKV","sig/txn"]},{"aliases":["amend"],"category":"concept","filename":"AmendSchema","name":"AmendSchema","section":"what","summary":"当有并发进行的DDL时，事务可以自动修改其mutation以减少 commit 失败的情况。","tags":["TiDB","txn"]},{"aliases":[],"category":"project","filename":"TiPB","name":"TiPB","section":"what","summary":"TiDB 的 protobuf 文件所在的仓库。","tags":["TiDB","protobuf","grpc"]},{"aliases":["GA"],"category":"concept","filename":"General Availability","name":"General Availability","section":"what","summary":"我们平常说的某个 Feature GA，就是说这个 Feature 已经可以正式发布可用了。","tags":[]},{"aliases":[],"category":"concept","filename":"Datum","name":"Datum","section":"what","summary":"A data box holds different kinds of data，有点像 Rust 中的 enum。常用于 TiDB 表中某个 Cell 的数据源。","tags":["TiDB"]},{"aliases":[],"category":"concept","filename":"大沽路宪法","name":"大沽路宪法","section":"what","summary":"PingCAP 上海办公室的行为守则。","tags":["搞笑"]},{"aliases":[],"category":"concept","filename":"WaiterManager","name":"WaiterManager","section":"what","summary":"处理等待悲观锁的事务的等待与唤醒。","tags":["TiKV"]},{"aliases":["cq"],"category":"concept","filename":"Completion Queue","name":"Completion Queue","section":"what","summary":"gRPC 用于缓存事件（如rpc请求）的组件，用于流控等。","tags":["grpc"]},{"aliases":["Cluster Index"],"category":"feature","filename":"聚簇索引","name":"聚簇索引","section":"what","summary":"即数据行和索引存储在一起，在实现这个 feature 之前，TiDB 只能在单列 INTEGER/BIGINT 主键上启用聚簇索引。","tags":["TiDB"]},{"aliases":[],"category":"concept","filename":"外部一致性","name":"外部一致性","section":"what","summary":"指 Read 和 Write 应该遵守怎样的时间线顺序，比如 Linearizability 外部一致性级别就保证了每一个读操作都将返回“（某个标准时钟规定的）最近的写操作”。","tags":[]},{"aliases":[],"category":"concept","filename":"min_commit_ts","name":"min_commit_ts","section":"what","summary":"min_commit_ts 指事务预期最早被提交的时间戳，在两个场合被使用：","tags":["TiKV","sig/txn","largeTxn","asyncCommit"]},{"aliases":[],"category":"project","filename":"kvproto","name":"kvproto","section":"what","summary":"TiKV 使用的 protobuf 文件仓库。","tags":[]},{"aliases":[],"category":"concept","filename":"Peer","name":"Peer","section":"what","summary":"同一个 Raft Group 中, replica 之间互称 peer。","tags":["TiKV","PD","sig/scheduling"]},{"aliases":[],"category":"concept","filename":"Detector","name":"Detector","section":"what","summary":"死锁检测器。","tags":["TiKV","sig/txn"]},{"aliases":[],"category":"feature","filename":"Green GC","name":"Green GC","section":"what","summary":"使得GC过程中可以跳过 raft 层直接resolve lock。","tags":[]},{"aliases":[],"category":"concept","filename":"Context","name":"Context","section":"what","summary":"TiKV 请求上附加的一些不属于请求本身的必要信息，包括 region 信息，隔离级别等。","tags":["TiKV"]},{"aliases":[],"category":"concept","filename":"Compation","name":"compation","section":"what","summary":"将LSM Tree中的小SST文件合并成一个大的SST文件。","tags":["TiKV","sig/storage"]},{"aliases":[],"category":"config-item","filename":"location-labels","name":"location-labels","section":"what","summary":"表示TiKV集群拓扑结构的label。","tags":["PD"]},{"aliases":[],"category":"handbook","filename":"启用 Golang 代码中的某个 FailPoint ","name":"启用 Golang 代码中的某个 FailPoint","section":"How","summary":"使用 failpoint.Enable 使能对应的 failpoint，并传入对应 expression 控制行为即可。","tags":["Golang","FailPoint","test"]},{"aliases":["Consistency"],"category":"concept","filename":"内部一致性","name":"内部一致性","section":"what","summary":"内部一致性指数据库内部的数据完整性（由各类约束、触发器，再加上数据库的隔离性保证）。","tags":[]},{"aliases":["Tablet (Spanner，YugabyteDB)","Range (CRDB)","Raft group"],"category":"concept","filename":"Region","name":"Region","section":"what","summary":"保存的所有数据中的一部分，这一部分数据作为一个raft group储存在一起。","tags":["TiKV","PD","sig/scheduling"]},{"aliases":[],"category":"handbook","filename":"AddInfoTable","name":"在 TiDB 中新建一张 infoschema 表","section":"how","summary":"在 tidb 仓库的 infoschema/tables.go，向文件一开始那个大 enum 的最后添加一条 TableXXX = \"<表名>\"","tags":["TiDB","SQL"]},{"aliases":[],"category":"词条类型，比如 concept, component, config-item 等等","filename":"Protected Rollback","name":"Protected Rollback","section":"what","summary":"在引入了 Collapse Rollback 和悲观事务后，某个事务的 primary key 上的 rollback 记录可能会被 collapse 掉了，造成这个事务的 secondary keys 被意外提交。","tags":[]},{"aliases":["distinct-filter"],"category":"concept","filename":"distinctScoreFilter","name":"distinctScoreFilter","section":"what","summary":"distinctScoreFilter保证distinct score不会下降。","tags":["pd","sig/scheduling"]},{"aliases":[],"category":"concept","filename":"Filter","name":"Filter","section":"what","summary":"Filter 指一种用于筛选调度过程中 能作为源/目标 store 的 store 的对象。","tags":["PD","sig/scheduling"]}];
+        const $ = document.querySelector.bind(document);
+        const $$ = document.querySelectorAll.bind(document);
+    </script>
+</head>
+<body>
+<div id="root">
+    <div class="jss1">
+        <header class="MuiPaper-root MuiAppBar-root MuiAppBar-positionAbsolute MuiAppBar-colorPrimary jss13 jss14 MuiPaper-elevation4">
+            <div class="MuiToolbar-root MuiToolbar-regular jss11 MuiToolbar-gutters">
+                <button class="MuiButtonBase-root MuiIconButton-root jss15 jss16 MuiIconButton-colorInherit MuiIconButton-edgeStart"
+                        tabindex="0" type="button" aria-label="open drawer"><span class="MuiIconButton-label"><svg
+                        class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path
+                        d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path></svg></span><span
+                        class="MuiTouchRipple-root"></span></button>
+                <h1 class="MuiTypography-root jss12 MuiTypography-h6 MuiTypography-colorInherit MuiTypography-noWrap">
+                    Tipedia
+                </h1>
+                <button class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-colorInherit" tabindex="0"
+                        type="button" aria-controls="language-menu" aria-haspopup="true">
+                    <span class="MuiButton-label">
+                    <svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z"></path>
+                    </svg>
+                    <span class="jss21">中文</span>
+                    <svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24"
+                         aria-hidden="true">
+                        <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path>
+                    </svg>
+                    </span>
+                    <span class="MuiTouchRipple-root"></span>
+                </button>
+                <div class="jss17">
+                    <div class="jss18">
+                        <svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                        </svg>
+                    </div>
+                    <div class="MuiInputBase-root jss19"><input placeholder="Search…" type="text" aria-label="search"
+                                                                class="MuiInputBase-input search-input" value=""></div>
+                </div>
+                <a class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorInherit" tabindex="0"
+                   aria-disabled="false" href="https://github.com/longfangsong/tipedia"><span
+                        class="MuiIconButton-label"><svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24"
+                                                         aria-hidden="true"><path
+                        d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2 0 1.9 1.2 1.9 1.2 1 1.8 2.8 1.3 3.5 1 0-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-6 0-1.2.5-2.3 1.3-3.1-.2-.4-.6-1.6 0-3.2 0 0 1-.3 3.4 1.2a11.5 11.5 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8 0 3.2.9.8 1.3 1.9 1.3 3.2 0 4.6-2.8 5.6-5.5 5.9.5.4.9 1 .9 2.2v3.3c0 .3.1.7.8.6A12 12 0 0 0 12 .3"></path></svg></span><span
+                        class="MuiTouchRipple-root"></span></a></div>
+        </header>
+        <div class="MuiDrawer-root MuiDrawer-docked">
+            <div class="MuiPaper-root MuiDrawer-paper jss3 MuiDrawer-paperAnchorLeft MuiDrawer-paperAnchorDockedLeft MuiPaper-elevation0">
+                <div class="jss2">
+                    <button class="MuiButtonBase-root MuiIconButton-root" tabindex="0" type="button"><span
+                            class="MuiIconButton-label"><svg class="MuiSvgIcon-root" focusable="false"
+                                                             viewBox="0 0 24 24" aria-hidden="true"><path
+                            d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"></path></svg></span><span
+                            class="MuiTouchRipple-root"></span></button>
+                </div>
+                <hr class="MuiDivider-root">
+                <div class="MuiList-root MuiList-padding">
+                    <a class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button"
+                       tabindex="0"
+                       href="https://longfangsong.github.io/tipedia/zh/index.html"
+                       aria-disabled="false">
+                        <div class="MuiListItemIcon-root">
+                            <svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"></path>
+                            </svg>
+                        </div>
+                        <div class="MuiListItemText-root">
+                            <span class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock">首页</span>
+                        </div>
+                        <span class="MuiTouchRipple-root"></span>
+                    </a>
+                    <a class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button"
+                       tabindex="0"
+                       aria-disabled="false">
+                        <div class="MuiListItemIcon-root">
+                            <svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM7.5 18c-.83 0-1.5-.67-1.5-1.5S6.67 15 7.5 15s1.5.67 1.5 1.5S8.33 18 7.5 18zm0-9C6.67 9 6 8.33 6 7.5S6.67 6 7.5 6 9 6.67 9 7.5 8.33 9 7.5 9zm4.5 4.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm4.5 4.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm0-9c-.83 0-1.5-.67-1.5-1.5S15.67 6 16.5 6s1.5.67 1.5 1.5S17.33 9 16.5 9z"></path>
+                            </svg>
+                        </div>
+                        <div class="MuiListItemText-root" id="random-page"><span
+                                class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock">随机页面</span>
+                        </div>
+                        <span class="MuiTouchRipple-root"></span>
+                    </a>
+                    <hr class="MuiDivider-root">
+                    <a class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button"
+                       tabindex="0"
+                       href="https://longfangsong.github.io/tipedia/zh/how/index.html" aria-disabled="false">
+                        <div class="MuiListItemIcon-root">
+                            <svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M2 17h2v.5H3v1h1v.5H2v1h3v-4H2v1zm1-9h1V4H2v1h1v3zm-1 3h1.8L2 13.1v.9h3v-1H3.2L5 10.9V10H2v1zm5-6v2h14V5H7zm0 14h14v-2H7v2zm0-6h14v-2H7v2z"></path>
+                            </svg>
+                        </div>
+                        <div class="MuiListItemText-root"><span
+                                class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock">如何 ...</span>
+                        </div>
+                        <span class="MuiTouchRipple-root"></span>
+                    </a>
+                    <a class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0"
+                       href="https://longfangsong.github.io/tipedia/zh/why/index.html" aria-disabled="false">
+                        <div class="MuiListItemIcon-root">
+                            <svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H8c0-2.21 1.79-4 4-4s4 1.79 4 4c0 .88-.36 1.68-.93 2.25z"></path>
+                            </svg>
+                        </div>
+                        <div class="MuiListItemText-root"><span
+                                class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock">为何 ...</span>
+                        </div>
+                        <span class="MuiTouchRipple-root"></span></a>
+                    <a class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0"
+                       href="https://longfangsong.github.io/tipedia/zh/where/index.html" aria-disabled="false">
+                        <div class="MuiListItemIcon-root">
+                            <svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"></path>
+                            </svg>
+                        </div>
+                        <div class="MuiListItemText-root"><span
+                                class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock">... 在哪里</span>
+                        </div>
+                        <span class="MuiTouchRipple-root"></span></a>
+                    <a class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0"
+                       href="https://longfangsong.github.io/tipedia/zh/what_if/index.html" aria-disabled="false">
+                        <div class="MuiListItemIcon-root">
+                            <svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M21 6h-2v9H6v2c0 .55.45 1 1 1h11l4 4V7c0-.55-.45-1-1-1zm-4 6V3c0-.55-.45-1-1-1H3c-.55 0-1 .45-1 1v14l4-4h10c.55 0 1-.45 1-1z"></path>
+                            </svg>
+                        </div>
+                        <div class="MuiListItemText-root"><span
+                                class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock">如果 ... 会怎样</span>
+                        </div>
+                        <span class="MuiTouchRipple-root"></span></a>
+                    <hr class="MuiDivider-root">
+                    <a class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0"
+                       href="https://longfangsong.github.io/tipedia/zh/about.html" aria-disabled="false">
+                        <div class="MuiListItemIcon-root">
+                            <svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"></path>
+                            </svg>
+                        </div>
+                        <div class="MuiListItemText-root"><span
+                                class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock">关于此网站</span>
+                        </div>
+                        <span class="MuiTouchRipple-root"></span></a></div>
+            </div>
+        </div>
+        <main class="jss6">
+            <div class="MuiBackdrop-root search-container" aria-hidden="true" style="opacity: 0; visibility: hidden;">
+                <ul class="MuiList-root table-itemname MuiList-padding" id="search-result">
+                </ul>
+            </div>
+            <div class="jss5"></div>
+            <div class="MuiContainer-root jss7 MuiContainer-maxWidthLg">
+                
+<div class="page">
+<h1>Tipedia</h1>
+<h2>这是什么</h2>
+<p>这是一个<strong>非官方</strong>的 TiDB 相关概念的百科，目标收录所有 TiDB 开发/维护/使用过程中可能会碰到的 概念/配置项/其他 等等。</p>
+<h2>为什么会有这个东西</h2>
+<p>在工作中，无论是 读代码 、review 设计文档、看事故复盘、查监控还是参与他人讨论，我们都会常常碰到我们不甚了解的概念：</p>
+<p>（以下内容收集自企业微信）</p>
+<blockquote>
+<p>What is amend?</p>
+</blockquote>
+<blockquote>
+<p>DM 是什么的简称呀。</p>
+</blockquote>
+<blockquote>
+<p>这个 schrodinger_test 是啥？</p>
+</blockquote>
+<p>（以下内容收集自 Slack）</p>
+<blockquote>
+<p>请问这个 hot_peer 是做什么用的呀？</p>
+</blockquote>
+<blockquote>
+<p>ndv 是啥呀？</p>
+</blockquote>
+<blockquote>
+<p>sorry, so does the term &quot;amend transaction&quot; mean the transaction altering the metadata of a table/database?</p>
+</blockquote>
+<p>（以下内容收集自 google doc）</p>
+<blockquote>
+<p>distinct filter 的含义是什么，搜了下文档没搜到。</p>
+</blockquote>
+<p><del>下面两个是来搞笑的。</del> 就算是搞笑的也很有价值！</p>
+<p>（搜集自微信）</p>
+<blockquote>
+<p>弱问 413 是什么</p>
+</blockquote>
+<blockquote>
+<p>不知道渡渡鸟是什么</p>
+</blockquote>
+<p>这些提问的人中许多都是经验丰富的优秀工程师，就连他们都不能完全了解整个系统中所有的概念，更不用说像本人这样又蠢又笨的小白😭和想要第一次做贡献的 contributor 了。</p>
+<p>在平时如果碰到这些不太了解的概念，我会：</p>
+<ul>
+<li>
+<p>查文档，但是</p>
+<ul>
+<li>文档更多是面向用户的，有些东西是实现细节或者内部工作流程，文档里并没有</li>
+</ul>
+</li>
+<li>
+<p>看代码，但是</p>
+<ul>
+<li>
+<p>有些制度上的东西和代码没关系</p>
+</li>
+<li>
+<p>有些简称只是口头上说的，代码里并没有</p>
+</li>
+<li>
+<p>很多概念都有二义性，而代码里却并没有消歧义页面</p>
+<p>比如 TiKV 和 client-rust 里加起来至少有三种 <code>Mutation</code>。</p>
+<p>再比如 Commit 可以指：</p>
+<ul>
+<li>事务的一整个 Commit 过程</li>
+<li>2pc 的第二阶段</li>
+<li>raft 的 Commit 过程</li>
+</ul>
+<p>分辨当前上下文中是哪一个概念需要费一番功夫，找到对应的代码又不能直接无脑全文搜索又要费一番功夫</p>
+</li>
+<li>
+<p>代码分布在多个仓库里，找起来比较麻烦</p>
+</li>
+</ul>
+</li>
+<li>
+<p>问人，但是</p>
+<ul>
+<li>社恐表示拒绝（是我了😭）</li>
+<li>不一定有人可以立即回答</li>
+<li>打扰他人工作</li>
+</ul>
+</li>
+</ul>
+<p>实际上从 <a href="https://zh.wikipedia.org/wiki/%E9%A0%98%E5%9F%9F%E9%A9%85%E5%8B%95%E8%A8%AD%E8%A8%88">领域驱动设计</a> 的观点来看，所有这些概念都是我们的 <a href="https://martinfowler.com/bliki/UbiquitousLanguage.html">Ubiquitous Language</a> 的一部分，我们平时工作一般都是在某个 <a href="https://martinfowler.com/bliki/BoundedContext.html">Bounded Context</a> 下，对于其中的概念我们都非常熟悉，但是对于超出我们 <a href="http://ddd.fed.wiki.org/view/conceptual-contours">Conceptual Contours</a> 的概念，我们可能就不太了解了，即使对于从“听明白别人在说什么”到“问题的诊断”，了解这些概念都是必须的。</p>
+<p>这个系统的最大目标就是：把某些工程师头脑中的知识传播到整个 TiDB 产研系统，包括研发、实施<sup class="footnote-reference"><a href="#1">1</a></sup>、社区 contributor、客户， 等等。</p>
+<p>那么对于这个目标来说这个项目和 “源码解析系列”、“文档树” 等相比有什么优势呢？</p>
+<h3>Unofficial</h3>
+<p>这个项目是由我个人维护的一个东西，我也不准备让他成为公司的正式项目。</p>
+<p>Unofficial 的优势如下：</p>
+<ul>
+<li>Unofficial = 无压力，和源码解析这类文章要仔细写不同，在 Tipedia 里加词条相对随意，虽然相应地可靠性不一定有源码解析高</li>
+<li>Unofficial = 任何人可编辑，本项目任何人都可以添加/修改词条（通过直接发pr的方式，注意由于 @baipiao-bot 的存在，pr只要发了就会立即被合，不需要任何审核）</li>
+<li>Unofficial = （更有希望）更新快，由于上面两条的原因，任何人发现过时的词条都可以直接去更新，相比源码解析系列（甚至代码的注释，我个人常常觉得为了更新一点注释发一个 pr 不甚值得）更有可能和最新的情况保持同步</li>
+<li>Unofficial = 可以收录一些不太 official 的词条，比如《大沽路宪法》😏</li>
+</ul>
+<p>大体上，就是放弃可靠性追求更新速度和更新者的体验。</p>
+<h3>“短平快”</h3>
+<p>本项目的词条内容尽量写的短小一些，并留下指向详细内容（比如文档）的链接。</p>
+<p>比如 “如何快速搭建 TiDB 开发集群”，只需写 “使用 <code>tiup playground</code> 命令，见<a href="https://docs.pingcap.com/zh/tidb/stable/tiup-playground#playground-%E7%BB%84%E4%BB%B6%E4%BB%8B%E7%BB%8D">文档</a>” 即可，不需要展开如何安装 tiup 等等。</p>
+<p>因为对于有些场景来说，我们对某个概念只需要有大概的了解就行，并不需要非常深入，而文档可能会“强迫”我们读很多细节，浪费我们的时间。所以本项目就希望把选择权交还给读者，想大概了解的看看词条里的说明就行，想深入理解的跟着指向文档和代码的链接走。</p>
+<h2>子项目</h2>
+<h3>What</h3>
+<p>收录概念。包括代码里的结构体/enum/变量/组件/配置项等等的名称。解答 “XXX <strong>是什么</strong>” 的问题。</p>
+<h3>How</h3>
+<p>告诉你想要做到一件事应该怎么去做，比如“<strong>如何</strong>给 TiDB 添加一个内存表”，“<strong>如何</strong>打印 TiDB/TiKV 间交换的数据”。把如何做这些事手册化之后，contribution 的门槛就非常低了。（比如我把“如何给 TiDB 添加一个内存表”写好之后，在做 TiDB Transaction related views 的时候，我准备好数据源，然后开一个 issue，就可以直接把加表的任务甩给外部 contributor 做）</p>
+<h3>Why(WIP)</h3>
+<p>解释一些设计上的选择的原因，比如 “<strong>为啥</strong> <code>statements_summary</code> 和 <code>statements_summary_history</code> 要分成两张表”</p>
+<h3>Where(WIP)</h3>
+<p>帮助找到完成某些特定任务的代码在哪里，比如 “查询过程中 SQL 里的列名<strong>在哪里</strong>被编码为对应KV数据”，“打到 TiKV 上的请求<strong>在哪里</strong>对应到自己上面的某个 region 身上”</p>
+<h3>What if(WIP)</h3>
+<p>告诉我们如果 XXX 时 会发生什么，比如“<strong>如果</strong>一个 TiKV 节点挂掉<strong>会发生什么</strong>”</p>
+<h2>怎么用</h2>
+<h3>直接 search 你想知道的东西</h3>
+<p>在右上角输入你要查的东西就好了。</p>
+<p><a href="https://imgtu.com/i/6P4RgJ"><img src="https://s3.ax1x.com/2021/03/01/6P4RgJ.png" alt="6P4RgJ.png" /></a></p>
+<h3>贡献你知道的东西</h3>
+<h4>通过 Github Issue</h4>
+<p>用 <a href="https://github.com/longfangsong/tipedia/issues/new?assignees=&amp;labels=contribution&amp;template=contribute-content.md&amp;title=%5BContribute%5D+Title+here">这个模版</a> 发一个 issue, 
+@baipiao-bot 会 handle 接下来的事情。</p>
+<h4>通过 Github Pull Request</h4>
+<p>直接给这个仓库发pr！由于你只是需要写/编辑一个 markdown 文件，你甚至不需要把这个仓库 clone 到本地。在对应语言的对应子项目
+下面直接新增/修改就行了。</p>
+<p>一般一个 markdown 的内容如下：</p>
+<pre><code class="language-markdown">---
+category: 词条类型，比如 concept, component, config-item 等等
+aliases: [] 词条的别称和简称
+tags: [] 任意 tag 比如 TiDB, TiKV, sig/txn 都是很好的tag
+---
+# 词条名
+
+内容
+
+## Links
+
+一些指向外部，比如代码、设计文档的链接
+</code></pre>
+<h2>技术特点</h2>
+<p>本项目从域名到存储到用于管理的bot，全部都是白嫖 GitHub！😏</p>
+<div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
+<p>即以前我们说的 DBA，有些人不喜欢 DBA 这个称呼，个人感觉实施工程师是一个比较好的说法。</p>
+</div>
+
+</div>
+
+            </div>
+        </main>
+    </div>
+</div>
+<div role="presentation" class="MuiPopover-root" id="language_site.language-menu" aria-hidden="true"
+     style="position: fixed; z-index: 1300; inset: 0; visibility: hidden;">
+    <div tabindex="0" data-test="sentinelStart"></div>
+    <div class="MuiPaper-root MuiMenu-paper MuiPopover-paper MuiPaper-elevation8 MuiPaper-rounded" tabindex="-1"
+         style="opacity: 0; transform: scale(0.75, 0.5625); visibility: hidden;">
+        <ul class="MuiList-root MuiMenu-list MuiList-padding" role="menu" tabindex="-1">
+            <li class="MuiButtonBase-root MuiListItem-root MuiMenuItem-root MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button"
+                tabindex="0" role="menuitem" aria-disabled="false">中文<span class="MuiTouchRipple-root"></span></li>
+            <li class="MuiButtonBase-root MuiListItem-root MuiMenuItem-root MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button"
+                tabindex="-1" role="menuitem" aria-disabled="false">English<span class="MuiTouchRipple-root"></span>
+            </li>
+        </ul>
+    </div>
+    <div tabindex="0" data-test="sentinelEnd"></div>
+    <script src="https://longfangsong.github.io/tipedia/static/random_page.js"></script>
+    <script src="https://longfangsong.github.io/tipedia/static/fuse.js"></script>
+    <script src="https://longfangsong.github.io/tipedia/static/search.js"></script>
+</div>
+</body>
+</html>

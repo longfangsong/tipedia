@@ -1,6 +1,0 @@
-<h1>ConcurrencyManager</h1>
-<p>TiKV 中用于并发控制和内存锁管理的结构。</p>
-<h2>Links</h2>
-<ul>
-<li><a href="https://github.com/pingcap/parser/blob/44f6be1df1c40f366a708a5c3bb88e9a64482e44/model/model.go#L1016">代码</a></li>
-</ul>

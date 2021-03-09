@@ -1,8 +1,0 @@
-<h1>TiPB</h1>
-<p>TiDB 的 protobuf 文件所在的仓库。</p>
-<h2>辨析</h2>
-<p>tipb vs kvproto: 请注意 TiKV 是可以脱离 TiDB 独立运行的 kv 数据库，kvproto 是 <strong>TiKV</strong>  的 protobuf 定义。</p>
-<h2>Links</h2>
-<ul>
-<li><a href="https://github.com/pingcap/tipb">仓库地址</a></li>
-</ul>

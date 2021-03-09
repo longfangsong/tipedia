@@ -1,9 +1,0 @@
-<h1>Collapse Rollback</h1>
-<p>如果一个 key 被连续多次 rollback，我们可以将这些 rollback 合并，只保留最后一个 rollback。以免 <code>write</code> column family 的大量数据拖慢读取。</p>
-<h2>Links</h2>
-<ul>
-<li><a href="https://github.com/tikv/tikv/pull/3290">带入这个优化的pr</a></li>
-</ul>
-<h2>太史公曰</h2>
-<p>如果是我来做而且知道后面会引发那么多麻烦的话，我宁可不要这个优化 （❌</p>
-<p>（其实和后面做 Feature 的方式可能也有关系吧…… 太难了.jpg）</p>

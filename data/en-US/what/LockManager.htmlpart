@@ -1,4 +1,0 @@
-<h1>LockManager</h1>
-<p>The component in TiKV for managing pessimistic locks.</p>
-<h2>Links</h2>
-<p><a href="https://github.com/tikv/tikv/blob/2a2fa03da53b63f3fc24d7ea53aead40176979b5/src/storage/lock_manager.rs#L48">Code</a></p>
