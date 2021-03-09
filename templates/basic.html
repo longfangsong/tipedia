@@ -1,10 +1,11 @@
 <html lang="{{ language_site.language }}">
 <head>
     <meta charset="utf-8">
-    <link rel="icon" href="{{ site.public_url }}/static/favicon.ico">
+    <meta name="public-url" content="{{ site.public_url }}">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="theme-color" content="#000000">
     <meta name="description" content="{{ site.description }}">
+    <link rel="icon" href="{{ site.public_url }}/static/favicon.ico">
     <link rel="apple-touch-icon" href="{{ site.public_url }}/static/logo192.png">
     <link rel="manifest" href="{{ site.public_url }}/static/manifest.json">
     <link rel="stylesheet" href="{{ site.public_url }}/static/mui.css">
@@ -135,7 +136,8 @@
                         </div>
                         <span class="MuiTouchRipple-root"></span></a>
                     <a class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0"
-                       href="{{ site.public_url }}/{{ language_site.language }}/what_if/index.html" aria-disabled="false">
+                       href="{{ site.public_url }}/{{ language_site.language }}/what_if/index.html"
+                       aria-disabled="false">
                         <div class="MuiListItemIcon-root">
                             <svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
                                 <path d="M21 6h-2v9H6v2c0 .55.45 1 1 1h11l4 4V7c0-.55-.45-1-1-1zm-4 6V3c0-.55-.45-1-1-1H3c-.55 0-1 .45-1 1v14l4-4h10c.55 0 1-.45 1-1z"></path>
