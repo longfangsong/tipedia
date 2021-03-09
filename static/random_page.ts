@@ -4,10 +4,10 @@ declare const $$;
 interface SearchIndex {
     section: string,
     category: string,
-    filename: String,
-    name: String,
+    filename: string,
+    name: string,
     aliases: Array<string>,
-    summary: String,
+    summary: string,
     tags: Array<string>,
 }
 

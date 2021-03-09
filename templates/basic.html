@@ -21,7 +21,7 @@
 <body>
 <div id="root">
     <div class="jss1">
-        <header class="MuiPaper-root MuiAppBar-root MuiAppBar-positionAbsolute MuiAppBar-colorPrimary jss13 jss14 MuiPaper-elevation4">
+        <header class="MuiPaper-root MuiAppBar-root MuiAppBar-positionAbsolute MuiAppBar-colorPrimary jss13 header-bar MuiPaper-elevation4">
             <div class="MuiToolbar-root MuiToolbar-regular jss11 MuiToolbar-gutters">
                 <button class="MuiButtonBase-root MuiIconButton-root jss15 jss16 MuiIconButton-colorInherit MuiIconButton-edgeStart"
                         tabindex="0" type="button" aria-label="open drawer"><span class="MuiIconButton-label"><svg
@@ -62,9 +62,9 @@
                         class="MuiTouchRipple-root"></span></a></div>
         </header>
         <div class="MuiDrawer-root MuiDrawer-docked">
-            <div class="MuiPaper-root MuiDrawer-paper jss3 MuiDrawer-paperAnchorLeft MuiDrawer-paperAnchorDockedLeft MuiPaper-elevation0">
+            <div class="MuiPaper-root MuiDrawer-paper side-bar MuiDrawer-paperAnchorLeft MuiDrawer-paperAnchorDockedLeft MuiPaper-elevation0">
                 <div class="jss2">
-                    <button class="MuiButtonBase-root MuiIconButton-root" tabindex="0" type="button"><span
+                    <button class="MuiButtonBase-root MuiIconButton-root" tabindex="0" type="button" id="expand-button"><span
                             class="MuiIconButton-label"><svg class="MuiSvgIcon-root" focusable="false"
                                                              viewBox="0 0 24 24" aria-hidden="true"><path
                             d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"></path></svg></span><span
@@ -88,13 +88,15 @@
                     </a>
                     <a class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button"
                        tabindex="0"
-                       aria-disabled="false">
+                       aria-disabled="false"
+                       id="random-page"
+                    >
                         <div class="MuiListItemIcon-root">
                             <svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
                                 <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM7.5 18c-.83 0-1.5-.67-1.5-1.5S6.67 15 7.5 15s1.5.67 1.5 1.5S8.33 18 7.5 18zm0-9C6.67 9 6 8.33 6 7.5S6.67 6 7.5 6 9 6.67 9 7.5 8.33 9 7.5 9zm4.5 4.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm4.5 4.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm0-9c-.83 0-1.5-.67-1.5-1.5S15.67 6 16.5 6s1.5.67 1.5 1.5S17.33 9 16.5 9z"></path>
                             </svg>
                         </div>
-                        <div class="MuiListItemText-root" id="random-page"><span
+                        <div class="MuiListItemText-root"><span
                                 class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock">{{ language_site.translation.random }}</span>
                         </div>
                         <span class="MuiTouchRipple-root"></span>
@@ -187,6 +189,7 @@
         </ul>
     </div>
     <div tabindex="0" data-test="sentinelEnd"></div>
+    <script src="{{ site.public_url }}/static/shared.js"></script>
     <script src="{{ site.public_url }}/static/random_page.js"></script>
     <script src="{{ site.public_url }}/static/fuse.js"></script>
     <script src="{{ site.public_url }}/static/search.js"></script>
