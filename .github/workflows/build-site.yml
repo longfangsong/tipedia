@@ -9,20 +9,10 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
-      - name: Set up Node.js
-        uses: actions/setup-node@v2
-      - name: Build English Content
-        uses: docker://longfangsong/md-translator
+      - name: Build Site
+        uses: docker://longfangsong/site_generator
         with:
-          args: -i ./data/en -o ./public/data/en
-      - name: Build Chinese Content
-        uses: docker://longfangsong/md-translator
-        with:
-          args: -i ./data/zh -o ./public/data/zh
-      - name: Build site
-        run: yarn && yarn build
-        env:
-          PUBLIC_URL: "/tipedia"
+          args: -i ./data -o ./build -s ./static -t ./templates
       - name: Deploy to GHPages
         uses: JamesIves/github-pages-deploy-action@3.7.1
         with:

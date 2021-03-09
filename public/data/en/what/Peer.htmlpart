@@ -1,6 +1,0 @@
-<h1>Peer</h1>
-<p>同一个 <a href="#/prerendered/what%2FRegion.htmlpart">Raft Group</a> 中, replica 之间互称 peer。</p>
-<h2>Links</h2>
-<ul>
-<li><a href="https://docs.pingcap.com/zh/tidb/stable/glossary#regionpeerraft-group">文档</a></li>
-</ul>

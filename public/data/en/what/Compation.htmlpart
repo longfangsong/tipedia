@@ -1,6 +1,0 @@
-<h1>compation</h1>
-<p>将LSM Tree中的小SST文件合并成一个大的SST文件。</p>
-<h2>Links</h2>
-<ul>
-<li><a href="https://docs.pingcap.com/zh/tidb/stable/tidb-lightning-glossary#compaction">文档</a></li>
-</ul>

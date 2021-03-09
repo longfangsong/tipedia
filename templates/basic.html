@@ -1,0 +1,193 @@
+<html lang="{{ language_site.language }}">
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" href="{{ site.public_url }}/static/favicon.ico">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="{{ site.description }}">
+    <link rel="apple-touch-icon" href="{{ site.public_url }}/static/logo192.png">
+    <link rel="manifest" href="{{ site.public_url }}/static/manifest.json">
+    <link rel="stylesheet" href="{{ site.public_url }}/static/mui.css">
+    {% block more_head %}{% endblock %}
+    <meta name="google-site-verification" content="eIlbRaKM-jgH9zQg2VFwWY4H-027wQlW6K-TWdEvI1g">
+    <title>{{ site.title }}</title>
+    <script>
+        const site_index = {{ site_index | json_encode() | safe }};
+        const $ = document.querySelector.bind(document);
+        const $$ = document.querySelectorAll.bind(document);
+    </script>
+</head>
+<body>
+<div id="root">
+    <div class="jss1">
+        <header class="MuiPaper-root MuiAppBar-root MuiAppBar-positionAbsolute MuiAppBar-colorPrimary jss13 jss14 MuiPaper-elevation4">
+            <div class="MuiToolbar-root MuiToolbar-regular jss11 MuiToolbar-gutters">
+                <button class="MuiButtonBase-root MuiIconButton-root jss15 jss16 MuiIconButton-colorInherit MuiIconButton-edgeStart"
+                        tabindex="0" type="button" aria-label="open drawer"><span class="MuiIconButton-label"><svg
+                        class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path
+                        d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path></svg></span><span
+                        class="MuiTouchRipple-root"></span></button>
+                <h1 class="MuiTypography-root jss12 MuiTypography-h6 MuiTypography-colorInherit MuiTypography-noWrap">
+                    {{ site.title }}
+                </h1>
+                <button class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-colorInherit" tabindex="0"
+                        type="button" aria-controls="language-menu" aria-haspopup="true">
+                    <span class="MuiButton-label">
+                    <svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z"></path>
+                    </svg>
+                    <span class="jss21">中文</span>
+                    <svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24"
+                         aria-hidden="true">
+                        <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path>
+                    </svg>
+                    </span>
+                    <span class="MuiTouchRipple-root"></span>
+                </button>
+                <div class="jss17">
+                    <div class="jss18">
+                        <svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                        </svg>
+                    </div>
+                    <div class="MuiInputBase-root jss19"><input placeholder="Search…" type="text" aria-label="search"
+                                                                class="MuiInputBase-input search-input" value=""></div>
+                </div>
+                <a class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorInherit" tabindex="0"
+                   aria-disabled="false" href="https://github.com/longfangsong/tipedia"><span
+                        class="MuiIconButton-label"><svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24"
+                                                         aria-hidden="true"><path
+                        d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2 0 1.9 1.2 1.9 1.2 1 1.8 2.8 1.3 3.5 1 0-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-6 0-1.2.5-2.3 1.3-3.1-.2-.4-.6-1.6 0-3.2 0 0 1-.3 3.4 1.2a11.5 11.5 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8 0 3.2.9.8 1.3 1.9 1.3 3.2 0 4.6-2.8 5.6-5.5 5.9.5.4.9 1 .9 2.2v3.3c0 .3.1.7.8.6A12 12 0 0 0 12 .3"></path></svg></span><span
+                        class="MuiTouchRipple-root"></span></a></div>
+        </header>
+        <div class="MuiDrawer-root MuiDrawer-docked">
+            <div class="MuiPaper-root MuiDrawer-paper jss3 MuiDrawer-paperAnchorLeft MuiDrawer-paperAnchorDockedLeft MuiPaper-elevation0">
+                <div class="jss2">
+                    <button class="MuiButtonBase-root MuiIconButton-root" tabindex="0" type="button"><span
+                            class="MuiIconButton-label"><svg class="MuiSvgIcon-root" focusable="false"
+                                                             viewBox="0 0 24 24" aria-hidden="true"><path
+                            d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"></path></svg></span><span
+                            class="MuiTouchRipple-root"></span></button>
+                </div>
+                <hr class="MuiDivider-root">
+                <div class="MuiList-root MuiList-padding">
+                    <a class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button"
+                       tabindex="0"
+                       href="{{ site.public_url }}/{{ language_site.language }}/index.html"
+                       aria-disabled="false">
+                        <div class="MuiListItemIcon-root">
+                            <svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"></path>
+                            </svg>
+                        </div>
+                        <div class="MuiListItemText-root">
+                            <span class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock">首页</span>
+                        </div>
+                        <span class="MuiTouchRipple-root"></span>
+                    </a>
+                    <a class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button"
+                       tabindex="0"
+                       aria-disabled="false">
+                        <div class="MuiListItemIcon-root">
+                            <svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM7.5 18c-.83 0-1.5-.67-1.5-1.5S6.67 15 7.5 15s1.5.67 1.5 1.5S8.33 18 7.5 18zm0-9C6.67 9 6 8.33 6 7.5S6.67 6 7.5 6 9 6.67 9 7.5 8.33 9 7.5 9zm4.5 4.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm4.5 4.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm0-9c-.83 0-1.5-.67-1.5-1.5S15.67 6 16.5 6s1.5.67 1.5 1.5S17.33 9 16.5 9z"></path>
+                            </svg>
+                        </div>
+                        <div class="MuiListItemText-root" id="random-page"><span
+                                class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock">{{ language_site.translation.random }}</span>
+                        </div>
+                        <span class="MuiTouchRipple-root"></span>
+                    </a>
+                    <hr class="MuiDivider-root">
+                    <a class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button"
+                       tabindex="0"
+                       href="{{ site.public_url }}/{{ language_site.language }}/how/index.html" aria-disabled="false">
+                        <div class="MuiListItemIcon-root">
+                            <svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M2 17h2v.5H3v1h1v.5H2v1h3v-4H2v1zm1-9h1V4H2v1h1v3zm-1 3h1.8L2 13.1v.9h3v-1H3.2L5 10.9V10H2v1zm5-6v2h14V5H7zm0 14h14v-2H7v2zm0-6h14v-2H7v2z"></path>
+                            </svg>
+                        </div>
+                        <div class="MuiListItemText-root"><span
+                                class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock">{{ language_site.translation.how_to }}</span>
+                        </div>
+                        <span class="MuiTouchRipple-root"></span>
+                    </a>
+                    <a class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0"
+                       href="{{ site.public_url }}/{{ language_site.language }}/why/index.html" aria-disabled="false">
+                        <div class="MuiListItemIcon-root">
+                            <svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H8c0-2.21 1.79-4 4-4s4 1.79 4 4c0 .88-.36 1.68-.93 2.25z"></path>
+                            </svg>
+                        </div>
+                        <div class="MuiListItemText-root"><span
+                                class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock">{{ language_site.translation.why }}</span>
+                        </div>
+                        <span class="MuiTouchRipple-root"></span></a>
+                    <a class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0"
+                       href="{{ site.public_url }}/{{ language_site.language }}/where/index.html" aria-disabled="false">
+                        <div class="MuiListItemIcon-root">
+                            <svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"></path>
+                            </svg>
+                        </div>
+                        <div class="MuiListItemText-root"><span
+                                class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock">{{ language_site.translation.where }}</span>
+                        </div>
+                        <span class="MuiTouchRipple-root"></span></a>
+                    <a class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0"
+                       href="{{ site.public_url }}/{{ language_site.language }}/what_if/index.html" aria-disabled="false">
+                        <div class="MuiListItemIcon-root">
+                            <svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M21 6h-2v9H6v2c0 .55.45 1 1 1h11l4 4V7c0-.55-.45-1-1-1zm-4 6V3c0-.55-.45-1-1-1H3c-.55 0-1 .45-1 1v14l4-4h10c.55 0 1-.45 1-1z"></path>
+                            </svg>
+                        </div>
+                        <div class="MuiListItemText-root"><span
+                                class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock">{{ language_site.translation.what_if }}</span>
+                        </div>
+                        <span class="MuiTouchRipple-root"></span></a>
+                    <hr class="MuiDivider-root">
+                    <a class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button" tabindex="0"
+                       href="{{ site.public_url }}/{{ language_site.language }}/about.html" aria-disabled="false">
+                        <div class="MuiListItemIcon-root">
+                            <svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"></path>
+                            </svg>
+                        </div>
+                        <div class="MuiListItemText-root"><span
+                                class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock">{{ language_site.translation.about }}</span>
+                        </div>
+                        <span class="MuiTouchRipple-root"></span></a></div>
+            </div>
+        </div>
+        <main class="jss6">
+            <div class="MuiBackdrop-root search-container" aria-hidden="true" style="opacity: 0; visibility: hidden;">
+                <ul class="MuiList-root table-itemname MuiList-padding" id="search-result">
+                </ul>
+            </div>
+            <div class="jss5"></div>
+            <div class="MuiContainer-root jss7 MuiContainer-maxWidthLg">
+                {% block content %}{% endblock content %}
+            </div>
+        </main>
+    </div>
+</div>
+<div role="presentation" class="MuiPopover-root" id="language_site.language-menu" aria-hidden="true"
+     style="position: fixed; z-index: 1300; inset: 0; visibility: hidden;">
+    <div tabindex="0" data-test="sentinelStart"></div>
+    <div class="MuiPaper-root MuiMenu-paper MuiPopover-paper MuiPaper-elevation8 MuiPaper-rounded" tabindex="-1"
+         style="opacity: 0; transform: scale(0.75, 0.5625); visibility: hidden;">
+        <ul class="MuiList-root MuiMenu-list MuiList-padding" role="menu" tabindex="-1">
+            <li class="MuiButtonBase-root MuiListItem-root MuiMenuItem-root MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button"
+                tabindex="0" role="menuitem" aria-disabled="false">中文<span class="MuiTouchRipple-root"></span></li>
+            <li class="MuiButtonBase-root MuiListItem-root MuiMenuItem-root MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button"
+                tabindex="-1" role="menuitem" aria-disabled="false">English<span class="MuiTouchRipple-root"></span>
+            </li>
+        </ul>
+    </div>
+    <div tabindex="0" data-test="sentinelEnd"></div>
+    <script src="{{ site.public_url }}/static/random_page.js"></script>
+    <script src="{{ site.public_url }}/static/fuse.js"></script>
+    <script src="{{ site.public_url }}/static/search.js"></script>
+</div>
+</body>
+</html>

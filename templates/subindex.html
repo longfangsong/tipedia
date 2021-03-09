@@ -1,0 +1,10 @@
+{% import "table.html" as table_macro %}
+{% extends "basic.html" %}
+{% block more_head %}
+<link rel="stylesheet" href="{{ site.public_url }}/static/table.css">
+{% endblock %}
+{% block content %}
+<div class="MuiContainer-root jss7 MuiContainer-maxWidthLg">
+    {{ table_macro::table(section=section) }}
+</div>
+{% endblock content %}

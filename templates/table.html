@@ -1,0 +1,29 @@
+{% macro table(section) %}
+<div class="MuiPaper-root MuiTableContainer-root jss22 MuiPaper-elevation1 MuiPaper-rounded">
+    <table class="MuiTable-root jss23" aria-label="table">
+        <thead class="MuiTableHead-root">
+        <tr class="MuiTableRow-root MuiTableRow-head">
+            <th class="MuiTableCell-root MuiTableCell-head" scope="col">{{ language_site.translation.name }}</th>
+            <th class="MuiTableCell-root MuiTableCell-head" scope="col">{{ language_site.translation.category }}</th>
+            <th class="MuiTableCell-root MuiTableCell-head" scope="col">Tags</th>
+        </tr>
+        </thead>
+        <tbody class="MuiTableBody-root">
+        {% for item in section.articles %}
+        <tr class="MuiTableRow-root table-row">
+            <th class="MuiTableCell-root MuiTableCell-body" role="cell" scope="row">
+                <a class="table-itemname" href="{{ site.public_url }}/{{ language_site.language }}/{{ section.name }}/{{ item.filename }}.html">{{ item.name }}</a>
+            </th>
+            <td class="MuiTableCell-root MuiTableCell-body">{{ item.category }}</td>
+            <td class="MuiTableCell-root MuiTableCell-body">
+                {% for tag in item.tags %}
+                <span class="tag {{ tag }}">{{ tag }}</span>
+                {% endfor %}
+            </td>
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+    <script src="{{ site.public_url }}/static/table.js"></script>
+</div>
+{% endmacro table %}

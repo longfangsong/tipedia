@@ -1,0 +1,71 @@
+{% import "table.html" as table_macro %}
+{% extends "basic.html" %}
+{% block more_head %}
+<link rel="stylesheet" href="{{ site.public_url }}/static/table.css">
+<link rel="stylesheet" href="{{ site.public_url }}/static/index.css">
+{% endblock %}
+{% block content %}
+<div class="MuiContainer-root jss7 MuiContainer-maxWidthLg">
+    <div>
+        <h4 class="MuiTypography-root MuiTypography-h3 MuiTypography-gutterBottom">{{ site.title }}</h4>
+        <h6 class="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom">{{ site.description }}</h6>
+        <p class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom">
+            {{ language_site.translation.in_all }} {{ article_count }} {{ language_site.translation.pages_in_language }}
+        </p>
+    </div>
+    <div class="MuiPaper-root MuiCard-root do-you-know MuiPaper-elevation1 MuiPaper-rounded">
+        <div class="MuiCardContent-root">
+            <p class="MuiTypography-root jss30 MuiTypography-body1 MuiTypography-colorTextSecondary MuiTypography-gutterBottom">
+                {{ language_site.translation.do_you_know_question }}
+            </p>
+            <p class="MuiTypography-root MuiTypography-body1">{{ language_site.translation.do_you_know_what_is }}</p>
+            <h2 class="MuiTypography-root MuiTypography-h5" id="do-you-know-what"><!-- js will fill this --></h2>
+        </div>
+        <div class="MuiCardActions-root MuiCardActions-spacing">
+            <button class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedSizeSmall MuiButton-sizeSmall MuiButton-disableElevation"
+                    tabindex="0" type="button" id="do-you-know-what-button">
+                <span class="MuiButton-label">{{ language_site.translation.find_result_here }}</span>
+                <span class="MuiTouchRipple-root"></span>
+            </button>
+        </div>
+    </div>
+    <div class="MuiPaper-root MuiCard-root do-you-know MuiPaper-elevation1 MuiPaper-rounded">
+        <div class="MuiCardContent-root">
+            <p class="MuiTypography-root jss30 MuiTypography-body1 MuiTypography-colorTextSecondary MuiTypography-gutterBottom">
+                {{ language_site.translation.do_you_know_question }}
+            </p>
+            <p class="MuiTypography-root MuiTypography-body1">{{ language_site.translation.do_you_know_how_to }}</p>
+            <h2 class="MuiTypography-root MuiTypography-h5" id="do-you-know-how"><!-- js will fill this --></h2>
+        </div>
+        <div class="MuiCardActions-root MuiCardActions-spacing">
+            <button class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedSizeSmall MuiButton-sizeSmall MuiButton-disableElevation"
+                    tabindex="0" type="button"
+                    id="do-you-know-how-button">
+                <span class="MuiButton-label">{{ language_site.translation.find_result_here }}</span>
+                <span class="MuiTouchRipple-root"></span>
+            </button>
+        </div>
+    </div>
+    <div class="MuiPaper-root MuiCard-root do-you-know MuiPaper-elevation1 MuiPaper-rounded">
+        <div class="MuiCardContent-root">
+            <p class="MuiTypography-root jss30 MuiTypography-body1 MuiTypography-colorTextSecondary MuiTypography-gutterBottom">
+                {{ language_site.translation.do_you_know_question }}
+            </p>
+            <p class="MuiTypography-root MuiTypography-body1">{{ language_site.translation.do_you_know_why }}</p>
+            <h2 class="MuiTypography-root MuiTypography-h5" id="do-you-know-why">
+                <!-- js will fill this -->
+            </h2>
+        </div>
+        <div class="MuiCardActions-root MuiCardActions-spacing">
+            <button class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedSizeSmall MuiButton-sizeSmall MuiButton-disableElevation"
+                    tabindex="0" type="button"
+                    id="do-you-know-why-button">
+                <span class="MuiButton-label">{{ language_site.translation.find_result_here }}</span>
+                <span class="MuiTouchRipple-root"></span>
+            </button>
+        </div>
+    </div>
+    <script src="{{ site.public_url }}/static/index.js"></script>
+    {{ table_macro::table(section=language_site.sections["what"]) }}
+</div>
+{% endblock content %}
