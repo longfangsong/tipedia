@@ -296,14 +296,25 @@ declare namespace Fuse {
 declare const $;
 declare const $$;
 
-interface SearchIndex {
+interface SingleArticleSearchIndex {
     section: string,
     category: string,
-    filename: String,
-    name: String,
+    filename: string,
+    name: string,
     aliases: Array<string>,
-    summary: String,
+    summary: string,
     tags: Array<string>,
+}
+
+interface ArticleArraySearchIndex {
+    name: string,
+    articles: Array<SingleArticleSearchIndex>
+}
+
+type SearchIndex = SingleArticleSearchIndex | ArticleArraySearchIndex;
+
+function isSingle(index: SearchIndex): index is SingleArticleSearchIndex {
+    return index.hasOwnProperty("section") !== undefined
 }
 
 declare const site_index: Array<SearchIndex>;
@@ -340,7 +351,8 @@ window.addEventListener("load", () => {
             } else {
                 let html_str = "";
                 for (const item of result) {
-                    html_str += `
+                    if (isSingle(item.item)) {
+                        html_str += `
                 <a class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button"
                     tabindex="0" role="button" aria-disabled="false" href="/${language}/${item.item.section}/${item.item.filename}.html">
                     <div class="MuiListItemText-root">
@@ -351,6 +363,7 @@ window.addEventListener("load", () => {
                     <span class="MuiTouchRipple-root"></span>
                 </a>
                 `
+                    }
                 }
                 $(".search-container").style.opacity = 1;
                 $(".search-container").style.visibility = "visible";

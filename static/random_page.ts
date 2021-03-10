@@ -1,7 +1,7 @@
 declare const $;
 declare const $$;
 
-interface SearchIndex {
+interface SingleArticleSearchIndex {
     section: string,
     category: string,
     filename: string,
@@ -11,13 +11,27 @@ interface SearchIndex {
     tags: Array<string>,
 }
 
+interface ArticleArraySearchIndex {
+    name: string,
+    articles: Array<SingleArticleSearchIndex>
+}
+
+type SearchIndex = SingleArticleSearchIndex | ArticleArraySearchIndex;
+
+function isSingle(index: SearchIndex): index is SingleArticleSearchIndex {
+    return index.hasOwnProperty("section") !== undefined
+}
+
 declare const site_index: Array<SearchIndex>;
 
 window.addEventListener("load", () => {
     $("#random-page").onclick = () => {
         let public_url = $("meta[name='public-url']").getAttribute("content");
         const language = navigator.language.split("-")[0];
-        const to_visit = site_index[Math.floor(Math.random() * site_index.length)];
+        let to_visit = site_index[Math.floor(Math.random() * site_index.length)];
+        while (!isSingle(to_visit)) {
+            to_visit = site_index[Math.floor(Math.random() * site_index.length)];
+        }
         window.location.href = `${public_url}/${language}/${to_visit.section}/${to_visit.filename}.html`;
     }
 });
