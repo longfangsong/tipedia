@@ -1,8 +1,11 @@
+function isSingle(index) {
+    return index.hasOwnProperty("section") !== undefined;
+}
 window.addEventListener("load", function () {
     var language = navigator.language.split("-")[0];
-    var what = site_index.filter(function (it) { return it.section == "what"; });
-    var how = site_index.filter(function (it) { return it.section == "how"; });
-    var why = site_index.filter(function (it) { return it.section == "why"; });
+    var what = site_index.filter(isSingle).filter(function (it) { return it.section == "what"; });
+    var how = site_index.filter(isSingle).filter(function (it) { return it.section == "how"; });
+    var why = site_index.filter(isSingle).filter(function (it) { return it.section == "why"; });
     var selected_what = what[Math.floor(Math.random() * what.length)];
     var selected_how = how[Math.floor(Math.random() * how.length)];
     var selected_why = why[Math.floor(Math.random() * why.length)];

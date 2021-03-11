@@ -1,3 +1,6 @@
+function isSingle(index) {
+    return index.hasOwnProperty("section") !== undefined;
+}
 var searchOptions = {
     keys: [{
             name: 'name',
@@ -30,7 +33,9 @@ window.addEventListener("load", function () {
                 var html_str = "";
                 for (var _i = 0; _i < result.length; _i++) {
                     var item = result[_i];
-                    html_str += "\n                <a class=\"MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button\"\n                    tabindex=\"0\" role=\"button\" aria-disabled=\"false\" href=\"/" + language + "/" + item.item.section + "/" + item.item.filename + ".html\">\n                    <div class=\"MuiListItemText-root\">\n                        <span class=\"MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock\">\n                            " + item.item.name + "\n                        </span>\n                    </div>\n                    <span class=\"MuiTouchRipple-root\"></span>\n                </a>\n                ";
+                    if (isSingle(item.item)) {
+                        html_str += "\n                <a class=\"MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button\"\n                    tabindex=\"0\" role=\"button\" aria-disabled=\"false\" href=\"/" + language + "/" + item.item.section + "/" + item.item.filename + ".html\">\n                    <div class=\"MuiListItemText-root\">\n                        <span class=\"MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock\">\n                            " + item.item.name + "\n                        </span>\n                    </div>\n                    <span class=\"MuiTouchRipple-root\"></span>\n                </a>\n                ";
+                    }
                 }
                 $(".search-container").style.opacity = 1;
                 $(".search-container").style.visibility = "visible";
