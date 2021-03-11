@@ -3,9 +3,9 @@ declare const $$;
 
 window.addEventListener("load", () => {
     for (const tr of $$(".table-row")) {
-        const tableRow: HTMLTableRowElement = tr;
-        const aElement: HTMLAnchorElement = tableRow.getElementsByTagName("a")[0];
-        const href = aElement.getAttribute("href");
+        let tableRow: HTMLTableRowElement = tr;
+        let aElement: HTMLAnchorElement = tableRow.getElementsByTagName("a")[0];
+        let href = aElement.getAttribute("href");
         tableRow.onclick = () => {
             window.location.href = href;
         };
