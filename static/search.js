@@ -14,7 +14,7 @@ var searchOptions = {
         }, {
             name: 'tags',
             weight: 0.05
-        }]
+        }],
 };
 var fuse = new Fuse(site_index, searchOptions);
 window.addEventListener("load", function () {
