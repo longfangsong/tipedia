@@ -1,5 +1,17 @@
 {% extends "basic.html" %}
+{% block more_head %}{% endblock %}
 {% block content %}
 <div class="disambiguation">
+    <h1>
+        {{ disambiguation.name }} {{ language_site.translation.can_refer_to }}:
+    </h1>
+    <ul>
+        {% for item in disambiguation.articles %}
+        <li class="disambiguation-item">
+            <h2><a href="{{ site.public_url }}/{{ language_site.language }}/{{ item.section }}/{{ item.name }}.html">{{ disambiguation.name }}</a></h2>
+            <div>{{ item.summary }}</div>
+        </li>
+        {% endfor %}
+    </ul>
 </div>
 {% endblock %}

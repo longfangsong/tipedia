@@ -27,7 +27,7 @@ declare const site_index: Array<SearchIndex>;
 window.addEventListener("load", () => {
     $("#random-page").onclick = () => {
         let public_url = $("meta[name='public-url']").getAttribute("content");
-        const language = navigator.language.split("-")[0];
+        let language = navigator.language.split("-")[0];
         let to_visit = site_index[Math.floor(Math.random() * site_index.length)];
         while (!isSingle(to_visit)) {
             to_visit = site_index[Math.floor(Math.random() * site_index.length)];
