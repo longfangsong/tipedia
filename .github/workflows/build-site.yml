@@ -13,6 +13,9 @@ jobs:
         uses: docker://longfangsong/site_generator
         with:
           args: -i ./data -o ./build -s ./static -t ./templates
+      - run: ls
+      - name: Dump docker logs on failure
+        uses: jwalton/gh-docker-logs@v1
       - name: Deploy to GHPages
         uses: JamesIves/github-pages-deploy-action@3.7.1
         with:

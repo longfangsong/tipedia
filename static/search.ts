@@ -364,6 +364,18 @@ window.addEventListener("load", () => {
                     <span class="MuiTouchRipple-root"></span>
                 </a>
                 `
+                    } else {
+                        html_str += `
+                <a class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button"
+                    tabindex="0" role="button" aria-disabled="false" href="${public_url}/${language}/disambiguation/${item.item.name}.html">
+                    <div class="MuiListItemText-root">
+                        <span class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock">
+                            ${item.item.name}
+                        </span>
+                    </div>
+                    <span class="MuiTouchRipple-root"></span>
+                </a>
+                `
                     }
                 }
                 $(".search-container").style.opacity = 1;
