@@ -37,6 +37,9 @@ window.addEventListener("load", function () {
                     if (isSingle(item.item)) {
                         html_str += "\n                <a class=\"MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button\"\n                    tabindex=\"0\" role=\"button\" aria-disabled=\"false\" href=\"" + public_url + "/" + language + "/" + item.item.section + "/" + item.item.filename + ".html\">\n                    <div class=\"MuiListItemText-root\">\n                        <span class=\"MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock\">\n                            " + item.item.name + "\n                        </span>\n                    </div>\n                    <span class=\"MuiTouchRipple-root\"></span>\n                </a>\n                ";
                     }
+                    else {
+                        html_str += "\n                <a class=\"MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button\"\n                    tabindex=\"0\" role=\"button\" aria-disabled=\"false\" href=\"" + public_url + "/" + language + "/disambiguation/" + item.item.name + ".html\">\n                    <div class=\"MuiListItemText-root\">\n                        <span class=\"MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock\">\n                            " + item.item.name + "\n                        </span>\n                    </div>\n                    <span class=\"MuiTouchRipple-root\"></span>\n                </a>\n                ";
+                    }
                 }
                 $(".search-container").style.opacity = 1;
                 $(".search-container").style.visibility = "visible";
