@@ -10,7 +10,7 @@
     <link rel="manifest" href="https://longfangsong.github.io/tipedia/static/manifest.json">
     <link rel="stylesheet" href="https://longfangsong.github.io/tipedia/static/mui.css">
     
-<link rel="stylesheet" href="https://longfangsong.github.io/tipedia/static/table.css">
+<link rel="stylesheet" href="https://longfangsong.github.io/tipedia/static/page.css">
 
     <meta name="google-site-verification" content="eIlbRaKM-jgH9zQg2VFwWY4H-027wQlW6K-TWdEvI1g">
     <title>Tipedia</title>
@@ -173,53 +173,9 @@
             <div class="jss5"></div>
             <div class="MuiContainer-root jss7 MuiContainer-maxWidthLg">
                 
-<div class="MuiContainer-root jss7 MuiContainer-maxWidthLg">
-    
-<div class="MuiPaper-root MuiTableContainer-root jss22 MuiPaper-elevation1 MuiPaper-rounded">
-    <table class="MuiTable-root jss23" aria-label="table">
-        <thead class="MuiTableHead-root">
-        <tr class="MuiTableRow-root MuiTableRow-head">
-            <th class="MuiTableCell-root MuiTableCell-head" scope="col">名称</th>
-            <th class="MuiTableCell-root MuiTableCell-head" scope="col">类型</th>
-            <th class="MuiTableCell-root MuiTableCell-head" scope="col">Tags</th>
-        </tr>
-        </thead>
-        <tbody class="MuiTableBody-root">
-        
-        <tr class="MuiTableRow-root table-row">
-            <th class="MuiTableCell-root MuiTableCell-body" role="cell" scope="row">
-                <a class="table-itemname" href="https://longfangsong.github.io/tipedia/zh/how/启用 Golang 代码中的某个 FailPoint .html">启用 Golang 代码中的某个 FailPoint</a>
-            </th>
-            <td class="MuiTableCell-root MuiTableCell-body">handbook</td>
-            <td class="MuiTableCell-root MuiTableCell-body">
-                
-                <span class="tag Golang">Golang</span>
-                
-                <span class="tag FailPoint">FailPoint</span>
-                
-                <span class="tag test">test</span>
-                
-            </td>
-        </tr>
-        
-        <tr class="MuiTableRow-root table-row">
-            <th class="MuiTableCell-root MuiTableCell-body" role="cell" scope="row">
-                <a class="table-itemname" href="https://longfangsong.github.io/tipedia/zh/how/AddInfoTable.html">在 TiDB 中新建一张 infoschema 表</a>
-            </th>
-            <td class="MuiTableCell-root MuiTableCell-body">handbook</td>
-            <td class="MuiTableCell-root MuiTableCell-body">
-                
-                <span class="tag TiDB">TiDB</span>
-                
-                <span class="tag SQL">SQL</span>
-                
-            </td>
-        </tr>
-        
-        </tbody>
-    </table>
-    <script src="https://longfangsong.github.io/tipedia/static/table.js"></script>
-</div>
+<div class="page">
+<h1>PD 开启 etcd</h1>
+<p>在 pd-server 启动之后，会立即启动一个 embedded etcd，见 <a href="https://github.com/tikv/pd/blob/f82f2d82c2d6dfbf303c893ec25c5aa68ce72572/server/server.go#L475">代码</a>。</p>
 
 </div>
 
