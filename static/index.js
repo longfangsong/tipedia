@@ -15,5 +15,5 @@ window.addEventListener("load", function () {
     $("#do-you-know-how").innerHTML = selected_how.name;
     $("#do-you-know-how-button").onclick = function () { return window.location.href = public_url + "/" + language + "/" + selected_how.section + "/" + selected_how.filename + ".html"; };
     $("#do-you-know-why").innerHTML = selected_why.name;
-    $("#do-you-know-why-button").onclick = function () { return window.location.href = public_url + "/" + language + "/" + selected_why.section + "/" + selected_how.filename + ".html"; };
+    $("#do-you-know-why-button").onclick = function () { return window.location.href = public_url + "/" + language + "/" + selected_why.section + "/" + selected_why.filename + ".html"; };
 });
