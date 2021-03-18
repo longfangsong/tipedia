@@ -1,0 +1,12 @@
+{% extends "page.html" %}
+{% block page_content %}
+<h1>{{ article.name }}</h1>
+<div class="tags">
+    {% for tag in article.tags %}
+    <span class="tag {{ tag }}">{{ tag }}</span>
+    {% endfor %}
+</div>
+<div>
+    {{ content_without_title }}
+</div>
+{% endblock %}

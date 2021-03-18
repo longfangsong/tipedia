@@ -1911,3 +1911,32 @@ a {
 #expand-button.collapsed {
     transform: rotateZ(180deg);
 }
+
+.tag {
+    color: white;
+    height: 26px;
+    display: inline-block;
+    padding: 4px;
+    font-weight: bold;
+    line-height: 20px;
+    margin-right: 4px;
+    border-radius: 4px;
+    background: grey;
+}
+
+.tag.TiDB,
+.tag.PD {
+    background: rgb(55, 202, 217);
+}
+
+.tag.TiKV {
+    background: rgb(248, 55, 0);
+}
+
+.tag.搞笑 {
+    background: rgb(255, 255, 0)
+}
+
+.tag.txn, .tag.transaction {
+    background: rgb(248, 157, 0);
+}
