@@ -2,6 +2,8 @@
 category: concept
 aliases: [TiKV/TiFlash node]
 tags: []
+author: longfangsong
+last_update: 2021-03-18T00:00:00.00Z
 ---
 # Store
 

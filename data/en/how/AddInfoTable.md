@@ -1,6 +1,8 @@
 ---
 category: handbook
 tags: [TiDB, SQL]
+author: longfangsong
+last_update: 2021-03-18T00:00:00.00Z
 ---
 # Add an infoschema table in TiDB
 

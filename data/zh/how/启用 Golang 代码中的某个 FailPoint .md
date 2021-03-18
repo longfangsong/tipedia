@@ -2,6 +2,8 @@
 category: handbook
 aliases: []
 tags: [Golang, FailPoint, test]
+author: longfangsong
+last_update: 2021-03-18T00:00:00.00Z
 ---
 # 启用 Golang 代码中的某个 FailPoint 
 

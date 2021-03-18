@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>{{ site.public_url }}/{{ language_site.language }}/index.html</loc>
+        <lastmod>{{ now | date(format="%Y-%m-%d") }}</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>{{ site.public_url }}/{{ language_site.language }}/how/index.html</loc>
+        <lastmod>{{ now | date(format="%Y-%m-%d") }}</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>{{ site.public_url }}/{{ language_site.language }}/why/index.html</loc>
+        <lastmod>{{ now | date(format="%Y-%m-%d") }}</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>{{ site.public_url }}/{{ language_site.language }}/where/index.html</loc>
+        <lastmod>{{ now | date(format="%Y-%m-%d") }}</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>{{ site.public_url }}/{{ language_site.language }}/what_if/index.html</loc>
+        <lastmod>{{ now | date(format="%Y-%m-%d") }}</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>{{ site.public_url }}/{{ language_site.language }}/about.html</loc>
+        <lastmod>{{ now | date(format="%Y-%m-%d") }}</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    {% for article in articles %}
+    <url>
+        <loc>{{ site.public_url }}/{{ language_site.language }}/{{ article.section }}/{{ article.filename }}.html</loc>
+        <lastmod>{{ article.last_update | date(format="%Y-%m-%d") }}</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    {% endfor %}
+</urlset>

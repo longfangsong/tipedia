@@ -2,6 +2,8 @@
 category: where
 aliases: []
 tags: [TiDB, excutor]
+author: longfangsong
+last_update: 2021-03-18T00:00:00.00Z
 ---
 # Hash Join 时遇到内存不足时将数据 spill 到磁盘
 

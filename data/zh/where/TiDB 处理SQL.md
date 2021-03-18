@@ -2,6 +2,8 @@
 category: where
 aliases: []
 tags: [TiDB, exec, sql]
+author: longfangsong
+last_update: 2021-03-18T00:00:00.00Z
 ---
 # TiDB 开始处理一句SQL
 

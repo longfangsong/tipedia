@@ -2,6 +2,8 @@
 category: concept
 aliases: []
 tags: [TiKV, sig/txn, largeTxn, asyncCommit]
+author: longfangsong
+last_update: 2021-03-18T00:00:00.00Z
 ---
 # min_commit_ts
 

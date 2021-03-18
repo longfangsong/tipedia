@@ -147,6 +147,8 @@ Generally, the content of a markdown is as follows:
 category: entry type, such as concept, component, config-item, etc.
 aliases: [] aliases and abbreviations for entries
 tags: [] Any tag, TiDB, TiKV, sig/txn are all good tags
+author: longfangsong
+last_update: 2021-03-18T00:00:00.00Z
 ---
 # Entry name
 

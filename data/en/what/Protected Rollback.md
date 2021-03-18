@@ -2,6 +2,8 @@
 category: 词条类型，比如 concept, component, config-item 等等
 aliases: []
 tags: []
+author: longfangsong
+last_update: 2021-03-18T00:00:00.00Z
 ---
 # Protected Rollback
 
