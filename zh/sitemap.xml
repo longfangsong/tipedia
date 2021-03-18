@@ -52,6 +52,13 @@
     </url>
     
     <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what_if/all-pd-went-down.html</loc>
+        <lastmod>2021-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
         <loc>https://longfangsong.github.io/tipedia/zh/where/TiDB 处理SQL.html</loc>
         <lastmod>2021-03-18</lastmod>
         <changefreq>monthly</changefreq>
@@ -81,13 +88,6 @@
     
     <url>
         <loc>https://longfangsong.github.io/tipedia/zh/why/pd-on-etcd.html</loc>
-        <lastmod>2021-03-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what_if/all-pd-went-down.html</loc>
         <lastmod>2021-03-18</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
