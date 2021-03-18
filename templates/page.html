@@ -1,9 +1,10 @@
 {% extends "basic.html" %}
+{% block more_title %} • {{ name }}{% endblock %}
 {% block more_head %}
 <link rel="stylesheet" href="{{ site.public_url }}/static/page.css">
 {% endblock %}
 {% block content %}
 <div class="page">
-{{ content }}
+    {{ content }}
 </div>
 {% endblock %}
