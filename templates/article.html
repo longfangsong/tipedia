@@ -1,12 +1,11 @@
 {% extends "page.html" %}
 {% block page_content %}
 <h1>{{ article.name }}</h1>
+<span class="last-edited">Last edited by {{ article.author }} at {{ article.last_update | date(format="%Y-%m-%d") }}</span>
 <div class="tags">
     {% for tag in article.tags %}
     <span class="tag {{ tag }}">{{ tag }}</span>
     {% endfor %}
 </div>
-<div>
-    {{ content_without_title }}
-</div>
+{{ content_without_title }}
 {% endblock %}
