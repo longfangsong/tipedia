@@ -1,5 +1,5 @@
 function isSingle(index) {
-    return index.hasOwnProperty("section") !== undefined;
+    return index.hasOwnProperty("section");
 }
 window.addEventListener("load", function () {
     var language = navigator.language.split("-")[0];
