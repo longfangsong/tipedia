@@ -21,7 +21,7 @@ type SearchIndex = SingleArticleSearchIndex | ArticleArraySearchIndex;
 declare const site_index: Array<SearchIndex>;
 
 function isSingle(index: SearchIndex): index is SingleArticleSearchIndex {
-    return index.hasOwnProperty("section") !== undefined
+    return index.hasOwnProperty("section")
 }
 
 window.addEventListener("load", () => {

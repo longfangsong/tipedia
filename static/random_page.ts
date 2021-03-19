@@ -19,7 +19,7 @@ interface ArticleArraySearchIndex {
 type SearchIndex = SingleArticleSearchIndex | ArticleArraySearchIndex;
 
 function isSingle(index: SearchIndex): index is SingleArticleSearchIndex {
-    return index.hasOwnProperty("section") !== undefined
+    return index.hasOwnProperty("section")
 }
 
 declare const site_index: Array<SearchIndex>;
