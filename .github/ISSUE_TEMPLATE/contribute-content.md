@@ -1,7 +1,7 @@
 ---
-name: "Contribute content"
+name: Contribute content
 about: For contributing content directly with GitHub
-title: '[Contribute] Title here'
+title: "[Contribute] Title here"
 labels: contribution
 assignees: ''
 
