@@ -26,4 +26,13 @@ window.addEventListener("load", () => {
             $(".header-bar").classList.add("collapsed");
         }
     };
+    $("#language-menu-button").onclick = () => {
+        const br: DOMRect = $("#language-menu-button").getBoundingClientRect();
+        $("#language-menu > .MuiPopover-paper").style.left = br.left;
+        $("#language-menu > .MuiPopover-paper").style.top = br.top + br.height;
+        $("#language-menu").classList.remove("hidden");
+    };
+    $("#language-menu").onclick = () => {
+        $("#language-menu").classList.add("hidden");
+    }
 });

@@ -339,7 +339,7 @@ const fuse = new Fuse(site_index, searchOptions);
 
 window.addEventListener("load", () => {
     const public_url = $("meta[name='public-url']").getAttribute("content");
-    const language = navigator.language.split("-")[0];
+    const language = document.documentElement.lang.split("-")[0];
     $(".search-input").onkeyup = () => {
         const to_search = $(".search-input").value;
         $("#search-result").innerHTML = "";

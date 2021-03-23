@@ -32,12 +32,12 @@
                     {{ site.title }}
                 </h1>
                 <button class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-colorInherit" tabindex="0"
-                        type="button" aria-controls="language-menu" aria-haspopup="true">
+                        type="button" aria-controls="language-menu" id="language-menu-button" aria-haspopup="true">
                     <span class="MuiButton-label">
                     <svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
                         <path d="M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z"></path>
                     </svg>
-                    <span class="jss21">中文</span>
+                    <span class="jss21">{{ language_site.translation.language_name }}</span>
                     <svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24"
                          aria-hidden="true">
                         <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path>
@@ -175,16 +175,20 @@
         </main>
     </div>
 </div>
-<div role="presentation" class="MuiPopover-root" id="language_site.language-menu" aria-hidden="true"
-     style="position: fixed; z-index: 1300; inset: 0; visibility: hidden;">
+<div role="presentation" class="MuiPopover-root hidden" id="language-menu" aria-hidden="true"
+     style="position: fixed; z-index: 1300; inset: 0;" data-nosnippet>
     <div tabindex="0" data-test="sentinelStart"></div>
     <div class="MuiPaper-root MuiMenu-paper MuiPopover-paper MuiPaper-elevation8 MuiPaper-rounded" tabindex="-1"
-         style="opacity: 0; transform: scale(0.75, 0.5625); visibility: hidden;">
+         style="">
         <ul class="MuiList-root MuiMenu-list MuiList-padding" role="menu" tabindex="-1">
             <li class="MuiButtonBase-root MuiListItem-root MuiMenuItem-root MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button"
-                tabindex="0" role="menuitem" aria-disabled="false">中文<span class="MuiTouchRipple-root"></span></li>
+                tabindex="0" role="menuitem" aria-disabled="false">
+                <a href="{{ site.public_url }}/zh/index.html">中文</a>
+                <span class="MuiTouchRipple-root"></span></li>
             <li class="MuiButtonBase-root MuiListItem-root MuiMenuItem-root MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button"
-                tabindex="-1" role="menuitem" aria-disabled="false">English<span class="MuiTouchRipple-root"></span>
+                tabindex="-1" role="menuitem" aria-disabled="false">
+                <a href="{{ site.public_url }}/en/index.html">English</a>
+                <span class="MuiTouchRipple-root"></span>
             </li>
         </ul>
     </div>

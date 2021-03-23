@@ -25,7 +25,7 @@ function isSingle(index: SearchIndex): index is SingleArticleSearchIndex {
 }
 
 window.addEventListener("load", () => {
-    const language = navigator.language.split("-")[0];
+    const language = document.documentElement.lang.split("-")[0];
     const what = site_index.filter(isSingle).filter(it => it.section == "what");
     const how = site_index.filter(isSingle).filter(it => it.section == "how");
     const why = site_index.filter(isSingle).filter(it => it.section == "why");
