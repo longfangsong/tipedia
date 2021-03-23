@@ -23,4 +23,13 @@ window.addEventListener("load", function () {
             $(".header-bar").classList.add("collapsed");
         }
     };
+    $("#language-menu-button").onclick = function () {
+        var br = $("#language-menu-button").getBoundingClientRect();
+        $("#language-menu > .MuiPopover-paper").style.left = br.left;
+        $("#language-menu > .MuiPopover-paper").style.top = br.top + br.height;
+        $("#language-menu").classList.remove("hidden");
+    };
+    $("#language-menu").onclick = function () {
+        $("#language-menu").classList.add("hidden");
+    };
 });
