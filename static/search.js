@@ -19,7 +19,7 @@ var searchOptions = {
 var fuse = new Fuse(site_index, searchOptions);
 window.addEventListener("load", function () {
     var public_url = $("meta[name='public-url']").getAttribute("content");
-    var language = navigator.language.split("-")[0];
+    var language = document.documentElement.lang.split("-")[0];
     $(".search-input").onkeyup = function () {
         var to_search = $(".search-input").value;
         $("#search-result").innerHTML = "";

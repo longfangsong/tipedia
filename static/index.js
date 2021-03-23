@@ -2,7 +2,7 @@ function isSingle(index) {
     return index.hasOwnProperty("section");
 }
 window.addEventListener("load", function () {
-    var language = navigator.language.split("-")[0];
+    var language = document.documentElement.lang.split("-")[0];
     var what = site_index.filter(isSingle).filter(function (it) { return it.section == "what"; });
     var how = site_index.filter(isSingle).filter(function (it) { return it.section == "how"; });
     var why = site_index.filter(isSingle).filter(function (it) { return it.section == "why"; });
