@@ -38,28 +38,14 @@
     </url>
     
     <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/where/TiDB 处理SQL.html</loc>
+        <loc>https://longfangsong.github.io/tipedia/zh/what_if/all-pd-went-down.html</loc>
         <lastmod>2021-03-18</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/where/PD 开启 etcd.html</loc>
-        <lastmod>2021-03-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/where/PD 选主.html</loc>
-        <lastmod>2021-03-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/where/Hash Join 时遇到内存不足时将数据 spill 到磁盘.html</loc>
+        <loc>https://longfangsong.github.io/tipedia/zh/why/pd-on-etcd.html</loc>
         <lastmod>2021-03-18</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -325,6 +311,13 @@
     </url>
     
     <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Joint Consensus.html</loc>
+        <lastmod>2021-03-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
         <loc>https://longfangsong.github.io/tipedia/zh/what/configuration.html</loc>
         <lastmod>2021-03-23</lastmod>
         <changefreq>monthly</changefreq>
@@ -339,6 +332,34 @@
     </url>
     
     <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/where/TiDB 处理SQL.html</loc>
+        <lastmod>2021-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/where/PD 开启 etcd.html</loc>
+        <lastmod>2021-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/where/PD 选主.html</loc>
+        <lastmod>2021-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/where/Hash Join 时遇到内存不足时将数据 spill 到磁盘.html</loc>
+        <lastmod>2021-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
         <loc>https://longfangsong.github.io/tipedia/zh/how/启用 Golang 代码中的某个 FailPoint .html</loc>
         <lastmod>2021-03-18</lastmod>
         <changefreq>monthly</changefreq>
@@ -347,20 +368,6 @@
     
     <url>
         <loc>https://longfangsong.github.io/tipedia/zh/how/AddInfoTable.html</loc>
-        <lastmod>2021-03-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what_if/all-pd-went-down.html</loc>
-        <lastmod>2021-03-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/why/pd-on-etcd.html</loc>
         <lastmod>2021-03-18</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
