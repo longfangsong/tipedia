@@ -8,7 +8,7 @@
     <ul>
         {% for item in disambiguation.articles %}
         <li class="disambiguation-item">
-            <h2><a href="{{ site.public_url }}/{{ language_site.language }}/{{ item.section }}/{{ item.name }}.html">{{ disambiguation.name }}</a></h2>
+            <h2><a href="{{ site.public_url }}/{{ language_site.language }}/{{ item.section }}/{{ item.filename }}.html">{{ disambiguation.name }}</a></h2>
             <div>{{ item.summary }}</div>
         </li>
         {% endfor %}

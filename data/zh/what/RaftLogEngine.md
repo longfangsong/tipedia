@@ -9,7 +9,8 @@ last_update: 2021-03-24T11:41:53Z
 
 # RaftLogEngine
 
-一个基于[RaftEngine](https://longfangsong.github.io/tipedia/zh/what/RaftEngine.html)实现的[RaftEngine](https://longfangsong.github.io/tipedia/zh/what/RaftEngine.html)。注意这两个 RaftEngine 的链接是不同的！
+一个基于 [`RaftEngine`](https://longfangsong.github.io/tipedia/zh/what/RaftEngine.html) 实现的 [`RaftEngine`](https://longfangsong.github.io/tipedia/zh/what/RaftEngine-6b5e10990b8b2c66698577fffb42a4da.html)。
+注意这两个 RaftEngine 的链接是不同的！
 
 ## Links
 
