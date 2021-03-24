@@ -1,9 +1,14 @@
 declare const $;
 window.addEventListener("load", () => {
+    console.log(window.innerWidth);
     if (window.innerWidth > 420) {
         $("#expand-button").classList.add("expanded");
+        $(".side-bar").classList.add("expanded");
+        $(".search-container").classList.add("expanded");
     } else {
         $("#expand-button").classList.add("collapsed");
+        $(".side-bar").classList.add("collapsed");
+        $(".search-container").classList.add("collapsed");
     }
     $("#expand-button").onclick = () => {
         if ($("#expand-button").classList.contains("expanded")) {
@@ -15,6 +20,10 @@ window.addEventListener("load", () => {
 
             $(".header-bar").classList.remove("collapsed");
             $(".header-bar").classList.add("expanded");
+
+
+            $(".search-container").classList.remove("collapsed");
+            $(".search-container").classList.add("expanded");
         } else {
             $("#expand-button").classList.remove("collapsed");
             $("#expand-button").classList.add("expanded");
@@ -24,6 +33,9 @@ window.addEventListener("load", () => {
 
             $(".header-bar").classList.remove("expanded");
             $(".header-bar").classList.add("collapsed");
+
+            $(".search-container").classList.remove("expanded");
+            $(".search-container").classList.add("collapsed");
         }
     };
     $("#language-menu-button").onclick = () => {
