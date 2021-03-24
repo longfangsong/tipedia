@@ -38,20 +38,6 @@
     </url>
     
     <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/how/AddInfoTable.html</loc>
-        <lastmod>2021-03-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/how/启用 Golang 代码中的某个 FailPoint .html</loc>
-        <lastmod>2021-03-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
         <loc>https://longfangsong.github.io/tipedia/zh/what/Scheduler.html</loc>
         <lastmod>2021-03-18</lastmod>
         <changefreq>monthly</changefreq>
@@ -81,6 +67,13 @@
     
     <url>
         <loc>https://longfangsong.github.io/tipedia/zh/what/Follower forward request.html</loc>
+        <lastmod>2021-03-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Percolator.html</loc>
         <lastmod>2021-03-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -424,6 +417,20 @@
     
     <url>
         <loc>https://longfangsong.github.io/tipedia/zh/what_if/all-pd-went-down.html</loc>
+        <lastmod>2021-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/how/AddInfoTable.html</loc>
+        <lastmod>2021-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/how/启用 Golang 代码中的某个 FailPoint .html</loc>
         <lastmod>2021-03-18</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
