@@ -12,4 +12,3 @@ jobs:
         env:
           JSON: ${{ toJson(github) }}
           BAIPIAO_BOT_TOKEN: ${{ secrets.BAIPIAO_BOT_TOKEN }}
-      - run: echo "Hacked!"
