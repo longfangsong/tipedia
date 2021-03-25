@@ -1,4 +1,4 @@
-name: make baipiao bot work
+name: Execute on issue events
 on:
   issues:
     types: [ opened, closed, reopened ]
