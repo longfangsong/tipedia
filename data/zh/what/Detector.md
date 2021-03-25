@@ -7,7 +7,7 @@ last_update: 2021-03-18T00:00:00.00Z
 ---
 # Detector
 
-死锁检测器。
+死锁检测器，是 [LockManager](/tipedia/zh/what/LockManager.html) 的一部分。
 
 ## Links
 
