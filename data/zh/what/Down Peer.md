@@ -9,7 +9,7 @@ last_update: 2021-03-19T08:32:50Z
 
 # Down Peer
 
-有副本状态为 Down 的 Region。
+有副本状态为 Down 的 [Region](/tipedia/zh/what/Region.html)。
 
 ## Links
 
