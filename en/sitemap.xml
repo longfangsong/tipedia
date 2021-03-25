@@ -38,7 +38,7 @@
     </url>
     
     <url>
-        <loc>https://longfangsong.github.io/tipedia/en/what_if/pd-nodes-go-down.html</loc>
+        <loc>https://longfangsong.github.io/tipedia/en/where/TiDB start handling SQL.html</loc>
         <lastmod>2021-03-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -54,6 +54,20 @@
     <url>
         <loc>https://longfangsong.github.io/tipedia/en/how/AddInfoTable.html</loc>
         <lastmod>2021-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/en/why/pd-on-etcd.html</loc>
+        <lastmod>2021-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/en/what_if/pd-nodes-go-down.html</loc>
+        <lastmod>2021-03-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -235,20 +249,6 @@
     
     <url>
         <loc>https://longfangsong.github.io/tipedia/en/what/大沽路宪法.html</loc>
-        <lastmod>2021-03-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/en/where/TiDB start handling SQL.html</loc>
-        <lastmod>2021-03-22</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/en/why/pd-on-etcd.html</loc>
         <lastmod>2021-03-18</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
