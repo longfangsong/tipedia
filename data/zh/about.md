@@ -143,7 +143,7 @@ Unofficial 的优势如下：
 ---
 category: 词条类型，比如 concept, component, config-item 等等
 aliases: [] 词条的别称和简称
-tags: [] 任意 tag 比如 TiDB, TiKV, sig/txn 都是很好的tag
+tags: [] 任意 tag 比如 TiDB, TiKV, txn 都是很好的tag
 author: longfangsong
 last_update: 2021-03-18T00:00:00.00Z
 ---

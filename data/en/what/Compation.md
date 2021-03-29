@@ -1,7 +1,7 @@
 ---
 category: concept
 aliases: []
-tags: [TiKV, sig/storage]
+tags: [TiKV, storage]
 author: longfangsong
 last_update: 2021-03-18T00:00:00.00Z
 ---

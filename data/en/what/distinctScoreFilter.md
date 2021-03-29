@@ -1,7 +1,7 @@
 ---
 category: concept
 aliases: [distinct-filter]
-tags: [pd, sig/scheduling]
+tags: [pd, scheduling]
 author: longfangsong
 last_update: 2021-03-18T00:00:00.00Z
 ---
