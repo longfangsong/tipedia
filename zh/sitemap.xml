@@ -38,28 +38,7 @@
     </url>
     
     <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/why/pd-on-etcd.html</loc>
-        <lastmod>2021-03-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/how/AddInfoTable.html</loc>
-        <lastmod>2021-03-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/how/阅读 TiDB Dashboard 中的流量可视化页面.html</loc>
-        <lastmod>2021-03-29</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/how/启用 Golang 代码中的某个 FailPoint .html</loc>
+        <loc>https://longfangsong.github.io/tipedia/zh/what_if/all-pd-went-down.html</loc>
         <lastmod>2021-03-18</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -215,6 +194,13 @@
     <url>
         <loc>https://longfangsong.github.io/tipedia/zh/what/RaftEngine-6b5e10990b8b2c66698577fffb42a4da.html</loc>
         <lastmod>2021-03-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Tombstone.html</loc>
+        <lastmod>2021-03-30</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -458,7 +444,7 @@
     </url>
     
     <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what_if/all-pd-went-down.html</loc>
+        <loc>https://longfangsong.github.io/tipedia/zh/why/pd-on-etcd.html</loc>
         <lastmod>2021-03-18</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -494,6 +480,27 @@
     
     <url>
         <loc>https://longfangsong.github.io/tipedia/zh/where/TiDB 处理SQL.html</loc>
+        <lastmod>2021-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/how/AddInfoTable.html</loc>
+        <lastmod>2021-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/how/阅读 TiDB Dashboard 中的流量可视化页面.html</loc>
+        <lastmod>2021-03-29</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/how/启用 Golang 代码中的某个 FailPoint .html</loc>
         <lastmod>2021-03-18</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
