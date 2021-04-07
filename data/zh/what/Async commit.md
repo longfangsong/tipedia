@@ -1,6 +1,6 @@
 ---
 
-category: 词条类型，比如 concept, component, config-item 等等
+category: feature
 aliases: [Parallel Commits]
 tags: [TiKV, txn]
 author: longfangsong
