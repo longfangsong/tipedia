@@ -7,7 +7,7 @@ author: longfangsong
 last_update: 2021-04-01T12:15:52Z
 ---
 
-# 词条名
+# Cascades Planner
 
 TiDB 的下一代 Planner 架构。
 
