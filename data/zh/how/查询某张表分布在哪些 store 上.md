@@ -7,7 +7,7 @@ author: longfangsong
 last_update: 2021-04-19T02:41:57Z
 ---
 
-# 查询某张表分布在哪些 store 上
+# 查询某张表分布在哪些 Store 上
 
 使用 SQL 语句：
 ```sql
@@ -16,6 +16,14 @@ SELECT p.STORE_ID, COUNT(s.REGION_ID) PEER_COUNT FROM INFORMATION_SCHEMA.TIKV_RE
 替换掉其中的 `<table_name>` 即可。
 
 如果要筛选出 leader，添加条件 `p.is_leader = 1` 即可。
+
+另外表上的 `index` 可能并不和表本身分布在同一个 [Store](/tipedia/zh/what/Store.html) 上，查 `index` 分布的 SQL 如下：
+
+```sql
+select count(s.region_id) cnt, s.index_name, p.store_id from INFORMATION_SCHEMA.TIKV_REGION_STATUS s join INFORMATION_SCHEMA.tikv_region_peers p on s.region_id = p.region_id where s.table_name = '<table_name>' group by index_name, p.store_id order by index_name,cnt desc;
+```
+
+同样可以添加条件 `p.is_leader = 1` 来筛选出 leader。
 
 ## Links
 
