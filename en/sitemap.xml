@@ -2,43 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://longfangsong.github.io/tipedia/en/index.html</loc>
-        <lastmod>2021-04-19</lastmod>
+        <lastmod>2021-04-21</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://longfangsong.github.io/tipedia/en/how/index.html</loc>
-        <lastmod>2021-04-19</lastmod>
+        <lastmod>2021-04-21</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://longfangsong.github.io/tipedia/en/why/index.html</loc>
-        <lastmod>2021-04-19</lastmod>
+        <lastmod>2021-04-21</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://longfangsong.github.io/tipedia/en/where/index.html</loc>
-        <lastmod>2021-04-19</lastmod>
+        <lastmod>2021-04-21</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://longfangsong.github.io/tipedia/en/what_if/index.html</loc>
-        <lastmod>2021-04-19</lastmod>
+        <lastmod>2021-04-21</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://longfangsong.github.io/tipedia/en/about.html</loc>
-        <lastmod>2021-04-19</lastmod>
+        <lastmod>2021-04-21</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://longfangsong.github.io/tipedia/en/why/pd-on-etcd.html</loc>
+        <loc>https://longfangsong.github.io/tipedia/en/how/Enable A failpoint in Golang.html</loc>
+        <lastmod>2021-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/en/how/AddInfoTable.html</loc>
         <lastmod>2021-03-18</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -227,6 +234,13 @@
     </url>
     
     <url>
+        <loc>https://longfangsong.github.io/tipedia/en/why/pd-on-etcd.html</loc>
+        <lastmod>2021-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
         <loc>https://longfangsong.github.io/tipedia/en/what_if/pd-nodes-go-down.html</loc>
         <lastmod>2021-03-22</lastmod>
         <changefreq>monthly</changefreq>
@@ -236,20 +250,6 @@
     <url>
         <loc>https://longfangsong.github.io/tipedia/en/where/TiDB start handling SQL.html</loc>
         <lastmod>2021-03-22</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/en/how/Enable A failpoint in Golang.html</loc>
-        <lastmod>2021-03-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/en/how/AddInfoTable.html</loc>
-        <lastmod>2021-03-18</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
