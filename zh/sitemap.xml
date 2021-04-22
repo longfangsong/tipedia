@@ -38,15 +38,36 @@
     </url>
     
     <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/why/TiKV 需要 Rollback 类型的 Write.html</loc>
-        <lastmod>2021-04-19</lastmod>
+        <loc>https://longfangsong.github.io/tipedia/zh/where/PD 开启 etcd.html</loc>
+        <lastmod>2021-03-18</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/why/pd-on-etcd.html</loc>
+        <loc>https://longfangsong.github.io/tipedia/zh/where/PD 选主.html</loc>
         <lastmod>2021-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/where/Hash Join 时遇到内存不足时将数据 spill 到磁盘.html</loc>
+        <lastmod>2021-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/where/TiDB 处理SQL.html</loc>
+        <lastmod>2021-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/where/计算 SafePoint.html</loc>
+        <lastmod>2021-03-23</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -110,41 +131,6 @@
     <url>
         <loc>https://longfangsong.github.io/tipedia/zh/how/AddInfoTable.html</loc>
         <lastmod>2021-03-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/where/PD 开启 etcd.html</loc>
-        <lastmod>2021-03-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/where/PD 选主.html</loc>
-        <lastmod>2021-03-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/where/Hash Join 时遇到内存不足时将数据 spill 到磁盘.html</loc>
-        <lastmod>2021-03-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/where/TiDB 处理SQL.html</loc>
-        <lastmod>2021-03-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/where/计算 SafePoint.html</loc>
-        <lastmod>2021-03-23</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -278,6 +264,13 @@
     <url>
         <loc>https://longfangsong.github.io/tipedia/zh/what/Percolator.html</loc>
         <lastmod>2021-03-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/服务级别目标.html</loc>
+        <lastmod>2021-04-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -873,6 +866,20 @@
     <url>
         <loc>https://longfangsong.github.io/tipedia/zh/what/Joint Consensus.html</loc>
         <lastmod>2021-03-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/why/TiKV 需要 Rollback 类型的 Write.html</loc>
+        <lastmod>2021-04-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/why/pd-on-etcd.html</loc>
+        <lastmod>2021-03-18</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
