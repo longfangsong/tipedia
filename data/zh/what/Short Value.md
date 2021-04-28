@@ -7,7 +7,7 @@ author: longfangsong
 last_update: 2021-04-28T06:27:08Z
 ---
 
-# 词条名
+# Short Value
 
 TiKV 的一个优化，如果 value 比较短，则可以直接和 write 记录一起存在 `writeCF` 里，而不用存在 `defaultCF` 里，符合这种条件的 value 就是 Short Value。
 
