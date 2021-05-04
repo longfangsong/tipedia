@@ -1,5 +1,4 @@
 window.addEventListener("load", function () {
-    console.log(window.innerWidth);
     if (window.innerWidth > 420) {
         $("#expand-button").classList.add("expanded");
         $(".side-bar").classList.add("expanded");
