@@ -1,6 +1,5 @@
 declare const $;
 window.addEventListener("load", () => {
-    console.log(window.innerWidth);
     if (window.innerWidth > 420) {
         $("#expand-button").classList.add("expanded");
         $(".side-bar").classList.add("expanded");

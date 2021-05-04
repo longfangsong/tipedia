@@ -103,3 +103,4 @@ $RECYCLE.BIN/
 *.lnk
 node_modules
 public/pages
+.vscode

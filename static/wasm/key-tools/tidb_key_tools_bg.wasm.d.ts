@@ -1,0 +1,33 @@
+/* tslint:disable */
+/* eslint-disable */
+export const memory: WebAssembly.Memory;
+export function __wbg_timestamp_free(a: number): void;
+export function __wbg_get_timestamp_0(a: number, b: number): void;
+export function __wbg_set_timestamp_0(a: number, b: number, c: number): void;
+export function write_type_from_u8(a: number): number;
+export function write_type_to_u8(a: number): number;
+export function __wbg_write_free(a: number): void;
+export function __wbg_get_write_write_type(a: number): number;
+export function __wbg_set_write_write_type(a: number, b: number): void;
+export function __wbg_get_write_start_ts(a: number): number;
+export function __wbg_set_write_start_ts(a: number, b: number): void;
+export function __wbg_get_write_has_overlapped_rollback(a: number): number;
+export function __wbg_set_write_has_overlapped_rollback(a: number, b: number): void;
+export function __wbg_get_write_gc_fence(a: number): number;
+export function __wbg_set_write_gc_fence(a: number, b: number): void;
+export function __wbg_parsingtrace_free(a: number): void;
+export function __wbg_get_parsingtrace_start(a: number): number;
+export function __wbg_set_parsingtrace_start(a: number, b: number): void;
+export function __wbg_get_parsingtrace_width(a: number): number;
+export function __wbg_set_parsingtrace_width(a: number, b: number): void;
+export function parsingtrace_description(a: number, b: number): void;
+export function write_parse(a: number, b: number): number;
+export function write_to_bytes(a: number, b: number): void;
+export function write_short_value(a: number, b: number): void;
+export function write_set_short_value(a: number, b: number, c: number): void;
+export function write_parsing_trace(a: number): number;
+export function parse_input(a: number, b: number, c: number): void;
+export function __wbindgen_add_to_stack_pointer(a: number): number;
+export function __wbindgen_free(a: number, b: number): void;
+export function __wbindgen_malloc(a: number): number;
+export function __wbindgen_realloc(a: number, b: number, c: number): number;
