@@ -34,7 +34,6 @@ TiKV 的事务模型中，写入到 write CF 的，保存 commit 成功的最后
                 .map(it => it.length < 2 ? `0${it}` : it)
                 .join(" ");
             let explanation = "";
-            console.log(content, record.description);
             switch(record.description) {
                 case "short_value":
                     explanation += `是 Short Value`;

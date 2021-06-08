@@ -22,7 +22,7 @@ go test ./distsql -check.f TestTableRangesToKVRanges
 注意如果启用了 failpoint，则此方法不适用，可以使用：
 
 ```sh
-pkg=<包名> make testpkg
+key-tools=<包名> make testpkg
 ```
 
 运行一个包内的测试。
