@@ -1,0 +1,21 @@
+{
+  "name": "tidb-key-tools",
+  "collaborators": [
+    "longfangsong <longfangsong@icloud.com>"
+  ],
+  "description": "A tool for manipulating TiDB related keys",
+  "version": "0.1.0",
+  "license": "Unlicense",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/longfangsong/tidb-key-tools"
+  },
+  "files": [
+    "tidb_key_tools_bg.wasm",
+    "tidb_key_tools.js",
+    "tidb_key_tools.d.ts"
+  ],
+  "module": "tidb_key_tools.js",
+  "types": "tidb_key_tools.d.ts",
+  "sideEffects": false
+}
