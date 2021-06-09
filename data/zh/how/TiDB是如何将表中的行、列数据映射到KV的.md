@@ -34,15 +34,13 @@ import init, {parse_input, parse_record} from "/tipedia/static/wasm/key-tools/ti
     $("#key-input").oninput = (e) => {
         const inputBuffer = parse_input(e.target.value);
         const result = parse_record(inputBuffer);
-        const content = Array.from(inputBuffer.slice(record.start, record.start + record.width))
-                .map(it => it.toString(16))
-                .map(it => it.length < 2 ? `0${it}` : it);
+        const content = Array.from(inputBuffer).map(it => it.toString(16)).map(it => it.length < 2 ? `0${it}` : it);
         $("#input-value").innerHTML = content.join(" ");
-        $("#explaination").innerHTML += `<li><span style="background: #e3e3e3;font-family: monospace;padding: 2px 6px;">${content[0]}</span>：表 id 前缀 "t"</li>`;
-        $("#explaination").innerHTML += `<li><span style="background: #e3e3e3;font-family: monospace;padding: 2px 6px;">${content.slice(1,9).join(" ")}</span>：表 id：{$(result.table_id)}</li>`;
+        $("#explaination").innerHTML = `<li><span style="background: #e3e3e3;font-family: monospace;padding: 2px 6px;">${content[0]}</span>：表 id 前缀 "t"</li>`;
+        $("#explaination").innerHTML += `<li><span style="background: #e3e3e3;font-family: monospace;padding: 2px 6px;">${content.slice(1,9).join(" ")}</span>：表 id：${result.table_id}</li>`;
         $("#explaination").innerHTML += `<li><span style="background: #e3e3e3;font-family: monospace;padding: 2px 6px;">${content[9]}</span>：分隔符 "_"</li>`;
         $("#explaination").innerHTML += `<li><span style="background: #e3e3e3;font-family: monospace;padding: 2px 6px;">${content[10]}</span>：行 id 前缀 "r"</li>`;
-        $("#explaination").innerHTML += `<li><span style="background: #e3e3e3;font-family: monospace;padding: 2px 6px;">${content.slice(11).join(" ")}</span>：行 id：{$(result.row_id)}</li>`;
+        $("#explaination").innerHTML += `<li><span style="background: #e3e3e3;font-family: monospace;padding: 2px 6px;">${content.slice(11).join(" ")}</span>：行 id：${result.row_id}</li>`;
     };
 </script>
 

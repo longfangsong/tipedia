@@ -145,3 +145,61 @@ export class Write {
 */
   write_type: number;
 }
+
+export type InitInput = RequestInfo | URL | Response | BufferSource | WebAssembly.Module;
+
+export interface InitOutput {
+  readonly memory: WebAssembly.Memory;
+  readonly __wbg_timestamp_free: (a: number) => void;
+  readonly __wbg_get_timestamp_0: (a: number, b: number) => void;
+  readonly __wbg_set_timestamp_0: (a: number, b: number, c: number) => void;
+  readonly write_type_from_u8: (a: number) => number;
+  readonly write_type_to_u8: (a: number) => number;
+  readonly __wbg_write_free: (a: number) => void;
+  readonly __wbg_get_write_write_type: (a: number) => number;
+  readonly __wbg_set_write_write_type: (a: number, b: number) => void;
+  readonly __wbg_get_write_start_ts: (a: number) => number;
+  readonly __wbg_set_write_start_ts: (a: number, b: number) => void;
+  readonly __wbg_get_write_has_overlapped_rollback: (a: number) => number;
+  readonly __wbg_set_write_has_overlapped_rollback: (a: number, b: number) => void;
+  readonly __wbg_get_write_gc_fence: (a: number) => number;
+  readonly __wbg_set_write_gc_fence: (a: number, b: number) => void;
+  readonly __wbg_parsingtrace_free: (a: number) => void;
+  readonly __wbg_get_parsingtrace_start: (a: number) => number;
+  readonly __wbg_set_parsingtrace_start: (a: number, b: number) => void;
+  readonly __wbg_get_parsingtrace_width: (a: number) => number;
+  readonly __wbg_set_parsingtrace_width: (a: number, b: number) => void;
+  readonly parsingtrace_description: (a: number, b: number) => void;
+  readonly write_parse: (a: number, b: number) => number;
+  readonly write_to_bytes: (a: number, b: number) => void;
+  readonly write_short_value: (a: number, b: number) => void;
+  readonly write_set_short_value: (a: number, b: number, c: number) => void;
+  readonly write_parsing_trace: (a: number) => number;
+  readonly __wbg_record_free: (a: number) => void;
+  readonly __wbg_get_record_table_id: (a: number, b: number) => void;
+  readonly __wbg_set_record_table_id: (a: number, b: number, c: number) => void;
+  readonly __wbg_get_record_row_id: (a: number, b: number) => void;
+  readonly __wbg_set_record_row_id: (a: number, b: number, c: number) => void;
+  readonly parse_record: (a: number, b: number) => number;
+  readonly parse_input: (a: number, b: number, c: number) => void;
+  readonly parse_golang_fmt_print: (a: number, b: number, c: number) => void;
+  readonly parse_hex_encoded: (a: number, b: number, c: number) => void;
+  readonly big_endian_decode_u64: (a: number, b: number, c: number) => void;
+  readonly big_endian_encode_u64: (a: number, b: number, c: number, d: number) => void;
+  readonly little_endian_decode_u64: (a: number, b: number, c: number) => void;
+  readonly little_endian_encode_u64: (a: number, b: number, c: number, d: number) => void;
+  readonly __wbindgen_add_to_stack_pointer: (a: number) => number;
+  readonly __wbindgen_free: (a: number, b: number) => void;
+  readonly __wbindgen_malloc: (a: number) => number;
+  readonly __wbindgen_realloc: (a: number, b: number, c: number) => number;
+}
+
+/**
+* If `module_or_path` is {RequestInfo} or {URL}, makes a request and
+* for everything else, calls `WebAssembly.instantiate` directly.
+*
+* @param {InitInput | Promise<InitInput>} module_or_path
+*
+* @returns {Promise<InitOutput>}
+*/
+export default function init (module_or_path?: InitInput | Promise<InitInput>): Promise<InitOutput>;
