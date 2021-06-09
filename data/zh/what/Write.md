@@ -20,7 +20,7 @@ TiKV 的事务模型中，写入到 write CF 的，保存 commit 成功的最后
 
 <ul id="explaination"></ul>
 <script type="module">
-    import init, {Write, parse_input, write_type_to_u8} from "/tipedia/static/wasm/key-tools/tidb_key_tools.js";
+    import init, {Write, parse_input} from "/tipedia/static/wasm/key-tools/tidb_key_tools.js";
     init();
     $("#key-input").oninput = (e) => {
         const inputBuffer = parse_input(e.target.value);
