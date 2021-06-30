@@ -2,44 +2,58 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://longfangsong.github.io/tipedia/en/index.html</loc>
-        <lastmod>2021-06-09</lastmod>
+        <lastmod>2021-06-30</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://longfangsong.github.io/tipedia/en/how/index.html</loc>
-        <lastmod>2021-06-09</lastmod>
+        <lastmod>2021-06-30</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://longfangsong.github.io/tipedia/en/why/index.html</loc>
-        <lastmod>2021-06-09</lastmod>
+        <lastmod>2021-06-30</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://longfangsong.github.io/tipedia/en/where/index.html</loc>
-        <lastmod>2021-06-09</lastmod>
+        <lastmod>2021-06-30</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://longfangsong.github.io/tipedia/en/what_if/index.html</loc>
-        <lastmod>2021-06-09</lastmod>
+        <lastmod>2021-06-30</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://longfangsong.github.io/tipedia/en/about.html</loc>
-        <lastmod>2021-06-09</lastmod>
+        <lastmod>2021-06-30</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://longfangsong.github.io/tipedia/en/why/pd-on-etcd.html</loc>
+        <loc>https://longfangsong.github.io/tipedia/en/how/AddInfoTable.html</loc>
         <lastmod>2021-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/en/how/Enable A failpoint in Golang.html</loc>
+        <lastmod>2021-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/en/what_if/pd-nodes-go-down.html</loc>
+        <lastmod>2021-03-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -52,28 +66,7 @@
     </url>
     
     <url>
-        <loc>https://longfangsong.github.io/tipedia/en/what/distinctScoreFilter.html</loc>
-        <lastmod>2021-03-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/en/what/AmendSchema.html</loc>
-        <lastmod>2021-03-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/en/what/configuration.html</loc>
-        <lastmod>2021-03-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/en/what/location-labels.html</loc>
+        <loc>https://longfangsong.github.io/tipedia/en/why/pd-on-etcd.html</loc>
         <lastmod>2021-03-18</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -87,56 +80,7 @@
     </url>
     
     <url>
-        <loc>https://longfangsong.github.io/tipedia/en/what/General Availability.html</loc>
-        <lastmod>2021-03-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/en/what/Green GC.html</loc>
-        <lastmod>2021-03-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/en/what/CIStr.html</loc>
-        <lastmod>2021-03-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/en/what/Collapse Rollback.html</loc>
-        <lastmod>2021-03-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/en/what/ordinary.html</loc>
-        <lastmod>2021-03-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/en/what/Completion Queue.html</loc>
-        <lastmod>2021-03-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/en/what/ConcurrencyManager.html</loc>
-        <lastmod>2021-03-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/en/what/TiPB.html</loc>
+        <loc>https://longfangsong.github.io/tipedia/en/what/distinctScoreFilter.html</loc>
         <lastmod>2021-03-18</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -157,14 +101,28 @@
     </url>
     
     <url>
-        <loc>https://longfangsong.github.io/tipedia/en/what/Context.html</loc>
+        <loc>https://longfangsong.github.io/tipedia/en/what/聚簇索引.html</loc>
         <lastmod>2021-03-18</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://longfangsong.github.io/tipedia/en/what/Filter.html</loc>
+        <loc>https://longfangsong.github.io/tipedia/en/what/ConcurrencyManager.html</loc>
+        <lastmod>2021-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/en/what/AmendSchema.html</loc>
+        <lastmod>2021-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/en/what/Green GC.html</loc>
         <lastmod>2021-03-18</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -185,21 +143,28 @@
     </url>
     
     <url>
-        <loc>https://longfangsong.github.io/tipedia/en/what/kvproto.html</loc>
+        <loc>https://longfangsong.github.io/tipedia/en/what/ordinary.html</loc>
         <lastmod>2021-03-18</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://longfangsong.github.io/tipedia/en/what/聚簇索引.html</loc>
+        <loc>https://longfangsong.github.io/tipedia/en/what/General Availability.html</loc>
         <lastmod>2021-03-18</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://longfangsong.github.io/tipedia/en/what/Peer.html</loc>
+        <loc>https://longfangsong.github.io/tipedia/en/what/Context.html</loc>
+        <lastmod>2021-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/en/what/LockManager.html</loc>
         <lastmod>2021-03-18</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -207,6 +172,55 @@
     
     <url>
         <loc>https://longfangsong.github.io/tipedia/en/what/Compation.html</loc>
+        <lastmod>2021-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/en/what/Filter.html</loc>
+        <lastmod>2021-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/en/what/kvproto.html</loc>
+        <lastmod>2021-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/en/what/CIStr.html</loc>
+        <lastmod>2021-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/en/what/TiPB.html</loc>
+        <lastmod>2021-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/en/what/Collapse Rollback.html</loc>
+        <lastmod>2021-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/en/what/location-labels.html</loc>
+        <lastmod>2021-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/en/what/Peer.html</loc>
         <lastmod>2021-03-18</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -227,29 +241,15 @@
     </url>
     
     <url>
-        <loc>https://longfangsong.github.io/tipedia/en/what/LockManager.html</loc>
+        <loc>https://longfangsong.github.io/tipedia/en/what/Completion Queue.html</loc>
         <lastmod>2021-03-18</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://longfangsong.github.io/tipedia/en/what_if/pd-nodes-go-down.html</loc>
-        <lastmod>2021-03-22</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/en/how/AddInfoTable.html</loc>
-        <lastmod>2021-03-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/en/how/Enable A failpoint in Golang.html</loc>
-        <lastmod>2021-03-18</lastmod>
+        <loc>https://longfangsong.github.io/tipedia/en/what/configuration.html</loc>
+        <lastmod>2021-03-23</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
