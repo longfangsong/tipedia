@@ -1,5 +1,5 @@
 ---
-category: 词条类型，比如 concept, component, config-item 等等
+category: concept
 aliases: []
 tags: []
 author: longfangsong
