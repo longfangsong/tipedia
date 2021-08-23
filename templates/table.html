@@ -12,7 +12,7 @@
         {% for item in section.articles %}
         <tr class="MuiTableRow-root table-row">
             <th class="MuiTableCell-root MuiTableCell-body" role="cell" scope="row">
-                <a class="table-itemname" href="{{ site.public_url }}/{{ language_site.language }}/{{ section.name }}/{{ item.filename }}.html">{{ item.name }}</a>
+                <a class="table-itemname" href="{{ site.public_url }}/{{ language_site.language }}/{{ section.name }}/{{ item.content.filename }}.html">{{ item.name }}</a>
             </th>
             <td class="MuiTableCell-root MuiTableCell-body">{{ item.category }}</td>
             <td class="MuiTableCell-root MuiTableCell-body">

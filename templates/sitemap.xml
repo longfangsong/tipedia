@@ -38,7 +38,7 @@
     </url>
     {% for article in articles %}
     <url>
-        <loc>{{ site.public_url }}/{{ language_site.language }}/{{ article.section }}/{{ article.filename }}.html</loc>
+        <loc>{{ site.public_url }}/{{ language_site.language }}/{{ article.section }}/{{ article.content.filename }}.html</loc>
         <lastmod>{{ article.last_update | date(format="%Y-%m-%d") }}</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>

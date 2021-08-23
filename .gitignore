@@ -104,3 +104,4 @@ $RECYCLE.BIN/
 node_modules
 public/pages
 .vscode
+local-site.toml
