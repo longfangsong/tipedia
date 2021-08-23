@@ -26,3 +26,12 @@
 
 [^1]: 恢复数据无法由 TiCDC / Drainer 同步到下游
 
+<style>
+    table {
+        border-collapse: collapse;
+    }
+    td, th {
+        border: solid 1px black;
+        padding: 5px;
+    }
+</style>
