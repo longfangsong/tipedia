@@ -2,95 +2,39 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://longfangsong.github.io/tipedia/zh/index.html</loc>
-        <lastmod>2021-08-18</lastmod>
+        <lastmod>2021-08-23</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://longfangsong.github.io/tipedia/zh/how/index.html</loc>
-        <lastmod>2021-08-18</lastmod>
+        <lastmod>2021-08-23</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://longfangsong.github.io/tipedia/zh/why/index.html</loc>
-        <lastmod>2021-08-18</lastmod>
+        <lastmod>2021-08-23</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://longfangsong.github.io/tipedia/zh/where/index.html</loc>
-        <lastmod>2021-08-18</lastmod>
+        <lastmod>2021-08-23</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://longfangsong.github.io/tipedia/zh/what_if/index.html</loc>
-        <lastmod>2021-08-18</lastmod>
+        <lastmod>2021-08-23</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://longfangsong.github.io/tipedia/zh/about.html</loc>
-        <lastmod>2021-08-18</lastmod>
+        <lastmod>2021-08-23</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/how/TiDB是如何将表中的行、列数据映射到KV的.html</loc>
-        <lastmod>2021-06-09</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/how/创建一张分布在多个 TiKV.html</loc>
-        <lastmod>2021-05-26</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/how/阅读 TiDB Dashboard 中的流量可视化页面.html</loc>
-        <lastmod>2021-03-29</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/how/运行TiDBPD中的单个test.html</loc>
-        <lastmod>2021-04-07</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/how/AddInfoTable.html</loc>
-        <lastmod>2021-03-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/how/查询某张表分布在哪些 store 上.html</loc>
-        <lastmod>2021-04-19</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/how/启用 Golang 代码中的某个 FailPoint .html</loc>
-        <lastmod>2021-03-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/how/迁移组件的数据目录.html</loc>
-        <lastmod>2021-04-07</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
     </url>
     
     <url>
@@ -418,6 +362,13 @@
     <url>
         <loc>https://longfangsong.github.io/tipedia/zh/what/Cascades Planner.html</loc>
         <lastmod>2021-04-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Relay Log.html</loc>
+        <lastmod>2021-08-23</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -992,6 +943,62 @@
     <url>
         <loc>https://longfangsong.github.io/tipedia/zh/where/TiDB 建表.html</loc>
         <lastmod>2021-05-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/how/TiDB是如何将表中的行、列数据映射到KV的.html</loc>
+        <lastmod>2021-06-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/how/创建一张分布在多个 TiKV.html</loc>
+        <lastmod>2021-05-26</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/how/阅读 TiDB Dashboard 中的流量可视化页面.html</loc>
+        <lastmod>2021-03-29</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/how/运行TiDBPD中的单个test.html</loc>
+        <lastmod>2021-04-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/how/AddInfoTable.html</loc>
+        <lastmod>2021-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/how/查询某张表分布在哪些 store 上.html</loc>
+        <lastmod>2021-04-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/how/启用 Golang 代码中的某个 FailPoint .html</loc>
+        <lastmod>2021-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/how/迁移组件的数据目录.html</loc>
+        <lastmod>2021-04-07</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
