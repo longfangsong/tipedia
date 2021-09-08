@@ -12,6 +12,14 @@
     <link rel="stylesheet" href="{{ site.public_url }}/static/mui.css">
     {% block more_head %}{% endblock %}
     <meta name="google-site-verification" content="eIlbRaKM-jgH9zQg2VFwWY4H-027wQlW6K-TWdEvI1g">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5LTBF6TXNL"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-5LTBF6TXNL');
+    </script>
     <title>{{ site.title }}{% block more_title %}{% endblock %}</title>
     <script>
         const site_index = {{ site_index | json_encode() | safe }};
