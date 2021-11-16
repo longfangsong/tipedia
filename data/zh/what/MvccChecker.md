@@ -2,7 +2,7 @@
 
 category: concept
 aliases: []
-tags: [FailureRecovery, TiKV]
+tags: [failover, TiKV]
 author: longfangsong
 last_update: 2021-11-16T03:51:03Z
 ---
