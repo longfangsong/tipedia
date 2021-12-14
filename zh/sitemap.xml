@@ -2,205 +2,205 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://longfangsong.github.io/tipedia/zh/index.html</loc>
-        <lastmod>2021-11-17</lastmod>
+        <lastmod>2021-12-14</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://longfangsong.github.io/tipedia/zh/how/index.html</loc>
-        <lastmod>2021-11-17</lastmod>
+        <lastmod>2021-12-14</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://longfangsong.github.io/tipedia/zh/why/index.html</loc>
-        <lastmod>2021-11-17</lastmod>
+        <lastmod>2021-12-14</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://longfangsong.github.io/tipedia/zh/where/index.html</loc>
-        <lastmod>2021-11-17</lastmod>
+        <lastmod>2021-12-14</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://longfangsong.github.io/tipedia/zh/what_if/index.html</loc>
-        <lastmod>2021-11-17</lastmod>
+        <lastmod>2021-12-14</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://longfangsong.github.io/tipedia/zh/about.html</loc>
-        <lastmod>2021-11-17</lastmod>
+        <lastmod>2021-12-14</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/where/Hash Join 时遇到内存不足时将数据 spill 到磁盘.html</loc>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Store.html</loc>
         <lastmod>2021-03-18</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/where/PD 开启 etcd.html</loc>
-        <lastmod>2021-03-18</lastmod>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/服务级别协议.html</loc>
+        <lastmod>2021-04-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/where/PD 选主.html</loc>
-        <lastmod>2021-03-18</lastmod>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Backoff.html</loc>
+        <lastmod>2021-04-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/where/TiDB 处理SQL.html</loc>
-        <lastmod>2021-03-18</lastmod>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/eraftpb.html</loc>
+        <lastmod>2021-03-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/where/TiDB 发送查其他 TiDB 内存表的请求.html</loc>
-        <lastmod>2021-11-02</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/where/TiDB 在 Commit 过程中拿 CommitTS.html</loc>
-        <lastmod>2021-11-02</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/where/计算 SafePoint.html</loc>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Joint Consensus.html</loc>
         <lastmod>2021-03-23</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/where/TiDB 建表.html</loc>
-        <lastmod>2021-05-19</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/how/迁移组件的数据目录.html</loc>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/CDC Endpoint.html</loc>
         <lastmod>2021-04-07</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/how/AddInfoTable.html</loc>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/大沽路宪法.html</loc>
         <lastmod>2021-03-18</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/how/运行TiDBPD中的单个test.html</loc>
-        <lastmod>2021-04-07</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/how/启用 Golang 代码中的某个 FailPoint .html</loc>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/kvproto.html</loc>
         <lastmod>2021-03-18</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/how/阅读 TiDB Dashboard 中的流量可视化页面.html</loc>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/copyset.html</loc>
+        <lastmod>2021-03-31</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Titan.html</loc>
+        <lastmod>2021-04-22</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Tombstone.html</loc>
+        <lastmod>2021-03-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Testing Knob.html</loc>
+        <lastmod>2021-10-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/TxnScope.html</loc>
+        <lastmod>2021-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Down.html</loc>
+        <lastmod>2021-03-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/MutableString.html</loc>
+        <lastmod>2021-09-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Iterator.html</loc>
+        <lastmod>2021-04-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/start_ts.html</loc>
+        <lastmod>2021-04-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Filter-096ad653af708bc1f0a69dfe8783d390.html</loc>
         <lastmod>2021-03-29</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/how/查询某张表分布在哪些 store 上.html</loc>
-        <lastmod>2021-04-19</lastmod>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/热点.html</loc>
+        <lastmod>2021-05-06</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/how/TiDB是如何将表中的行、列数据映射到KV的.html</loc>
-        <lastmod>2021-06-09</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/how/如何通过 TiDB 的 HTTP API 启用 failpoint.html</loc>
-        <lastmod>2021-11-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/how/创建一张分布在多个 TiKV.html</loc>
-        <lastmod>2021-05-26</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what_if/向刚刚成为 leader，还未完成 TSO 的同步 - 初始化的 PD 请求了 TSO.html</loc>
-        <lastmod>2021-03-30</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what_if/all-pd-went-down.html</loc>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/min_commit_ts.html</loc>
         <lastmod>2021-03-18</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what_if/向非 leader 的 PD 请求了 TSO.html</loc>
-        <lastmod>2021-03-30</lastmod>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Write.html</loc>
+        <lastmod>2021-05-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Detector.html</loc>
-        <lastmod>2021-03-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Green GC.html</loc>
-        <lastmod>2021-03-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/CIStr.html</loc>
-        <lastmod>2021-03-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Index Nested Loop Merge Join.html</loc>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Commit Index.html</loc>
         <lastmod>2021-04-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Follower forward request.html</loc>
+        <lastmod>2021-03-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Datum.html</loc>
+        <lastmod>2021-03-18</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -213,36 +213,8 @@
     </url>
     
     <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Delegate.html</loc>
-        <lastmod>2021-04-07</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Relay Log.html</loc>
-        <lastmod>2021-08-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/动态裁剪模式.html</loc>
-        <lastmod>2021-08-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Compation.html</loc>
-        <lastmod>2021-03-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/SessionManager.html</loc>
-        <lastmod>2021-04-22</lastmod>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Column.html</loc>
+        <lastmod>2021-03-31</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -255,7 +227,133 @@
     </url>
     
     <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Engines.html</loc>
+        <lastmod>2021-11-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Commit.html</loc>
+        <lastmod>2021-03-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/RocksEngine-5f00d514e62a0e1450d081d96d9fa635.html</loc>
+        <lastmod>2021-03-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Operator.html</loc>
+        <lastmod>2021-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Scatter Range.html</loc>
+        <lastmod>2021-09-26</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/configuration.html</loc>
+        <lastmod>2021-03-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/ANALYZE TABLE.html</loc>
+        <lastmod>2021-11-03</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Region.html</loc>
+        <lastmod>2021-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/autoID.html</loc>
+        <lastmod>2021-08-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/TiCDC.html</loc>
+        <lastmod>2021-04-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/MvccChecker.html</loc>
+        <lastmod>2021-11-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/分区表.html</loc>
+        <lastmod>2021-04-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Probe 表.html</loc>
+        <lastmod>2021-04-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/内部一致性.html</loc>
+        <lastmod>2021-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Build 表.html</loc>
+        <lastmod>2021-04-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Retriever.html</loc>
+        <lastmod>2021-04-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/RegionCache.html</loc>
+        <lastmod>2021-03-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
         <loc>https://longfangsong.github.io/tipedia/zh/what/RaftMessage.html</loc>
+        <lastmod>2021-04-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Delegate.html</loc>
         <lastmod>2021-04-07</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -269,22 +367,148 @@
     </url>
     
     <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Commit.html</loc>
-        <lastmod>2021-03-23</lastmod>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Amend transaction.html</loc>
+        <lastmod>2021-11-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Transport.html</loc>
-        <lastmod>2021-04-07</lastmod>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Completion Queue.html</loc>
+        <lastmod>2021-03-18</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Mutator.html</loc>
-        <lastmod>2021-04-08</lastmod>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/一阶段提交.html</loc>
+        <lastmod>2021-04-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/渡渡鸟.html</loc>
+        <lastmod>2021-05-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/AUTO_RANDOM.html</loc>
+        <lastmod>2021-08-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/RaftEngine.html</loc>
+        <lastmod>2021-03-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Percolator.html</loc>
+        <lastmod>2021-03-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Snapshot.html</loc>
+        <lastmod>2021-04-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/RocksEngine.html</loc>
+        <lastmod>2021-03-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Detector.html</loc>
+        <lastmod>2021-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/TiPB.html</loc>
+        <lastmod>2021-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Column family.html</loc>
+        <lastmod>2021-03-31</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/location-labels.html</loc>
+        <lastmod>2021-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/MemoryStatsAccessor.html</loc>
+        <lastmod>2021-11-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/write reorganization.html</loc>
+        <lastmod>2021-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Async commit.html</loc>
+        <lastmod>2021-04-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/nortcheck.html</loc>
+        <lastmod>2021-03-29</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/AmendSchema.html</loc>
+        <lastmod>2021-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/PointGetter.html</loc>
+        <lastmod>2021-04-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Scanner.html</loc>
+        <lastmod>2021-04-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Super batch.html</loc>
+        <lastmod>2021-10-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -304,99 +528,29 @@
     </url>
     
     <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Write Stall.html</loc>
-        <lastmod>2021-05-10</lastmod>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/KvEngine.html</loc>
+        <lastmod>2021-03-23</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/MemoryStatsAccessor.html</loc>
-        <lastmod>2021-11-16</lastmod>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Region Epoch.html</loc>
+        <lastmod>2021-09-26</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/TableID.html</loc>
-        <lastmod>2021-03-18</lastmod>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/SessionManager.html</loc>
+        <lastmod>2021-04-22</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Store.html</loc>
-        <lastmod>2021-03-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Massive Parallel Processing.html</loc>
-        <lastmod>2021-04-07</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/RaftEngine-6b5e10990b8b2c66698577fffb42a4da.html</loc>
-        <lastmod>2021-03-24</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/TxStructure.html</loc>
-        <lastmod>2021-08-16</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Protected Rollback.html</loc>
-        <lastmod>2021-03-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/RocksEngine.html</loc>
-        <lastmod>2021-03-24</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/热点.html</loc>
-        <lastmod>2021-05-06</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/聚簇索引.html</loc>
-        <lastmod>2021-03-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/MutableString.html</loc>
-        <lastmod>2021-09-16</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/start_ts.html</loc>
-        <lastmod>2021-04-01</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Memory Comparable Encoding.html</loc>
-        <lastmod>2021-04-30</lastmod>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/根据 Table ID 查询表名.html</loc>
+        <lastmod>2021-06-30</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -409,244 +563,6 @@
     </url>
     
     <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Write.html</loc>
-        <lastmod>2021-05-03</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Cursor.html</loc>
-        <lastmod>2021-04-01</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Percolator.html</loc>
-        <lastmod>2021-03-24</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/TxnScope.html</loc>
-        <lastmod>2021-03-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/write reorganization.html</loc>
-        <lastmod>2021-03-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Testing Knob.html</loc>
-        <lastmod>2021-10-11</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/kvproto.html</loc>
-        <lastmod>2021-03-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Joint Consensus.html</loc>
-        <lastmod>2021-03-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Completion Queue.html</loc>
-        <lastmod>2021-03-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/RaftEngine.html</loc>
-        <lastmod>2021-03-24</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Command.html</loc>
-        <lastmod>2021-03-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Column.html</loc>
-        <lastmod>2021-03-31</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/nortcheck.html</loc>
-        <lastmod>2021-03-29</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Region.html</loc>
-        <lastmod>2021-03-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Session.html</loc>
-        <lastmod>2021-04-22</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Datum.html</loc>
-        <lastmod>2021-03-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Iterator.html</loc>
-        <lastmod>2021-04-01</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Disconnect.html</loc>
-        <lastmod>2021-03-30</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Load base split.html</loc>
-        <lastmod>2021-09-26</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Scanner.html</loc>
-        <lastmod>2021-04-01</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Titan.html</loc>
-        <lastmod>2021-04-22</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Scheduler.html</loc>
-        <lastmod>2021-03-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/TiCDC.html</loc>
-        <lastmod>2021-04-01</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/distinctScoreFilter.html</loc>
-        <lastmod>2021-03-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/General Availability.html</loc>
-        <lastmod>2021-03-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Filter.html</loc>
-        <lastmod>2021-03-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Modify.html</loc>
-        <lastmod>2021-03-31</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/服务级别协议.html</loc>
-        <lastmod>2021-04-22</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Amend transaction.html</loc>
-        <lastmod>2021-11-09</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Apply.html</loc>
-        <lastmod>2021-04-01</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/一阶段提交.html</loc>
-        <lastmod>2021-04-01</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Operator.html</loc>
-        <lastmod>2021-03-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/RocksEngine-5f00d514e62a0e1450d081d96d9fa635.html</loc>
-        <lastmod>2021-03-24</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Column-b1fb2562d61cb19ceadd92fd836d470b.html</loc>
-        <lastmod>2021-03-31</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
         <loc>https://longfangsong.github.io/tipedia/zh/what/算子.html</loc>
         <lastmod>2021-04-01</lastmod>
         <changefreq>monthly</changefreq>
@@ -654,28 +570,42 @@
     </url>
     
     <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/location-labels.html</loc>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/ingest sst.html</loc>
+        <lastmod>2021-03-31</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/任期.html</loc>
+        <lastmod>2021-12-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Engine.html</loc>
+        <lastmod>2021-03-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/WaiterManager.html</loc>
         <lastmod>2021-03-18</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Context.html</loc>
-        <lastmod>2021-03-18</lastmod>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/tidb_guarantee_linearizability.html</loc>
+        <lastmod>2021-03-31</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Down Peer.html</loc>
-        <lastmod>2021-03-19</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Special Query.html</loc>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/CIStr.html</loc>
         <lastmod>2021-03-18</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -689,28 +619,28 @@
     </url>
     
     <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/ordinary.html</loc>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Mutator.html</loc>
+        <lastmod>2021-04-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Operator-f5f4846e806f6bc8475f39c419dcc931.html</loc>
         <lastmod>2021-03-18</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/RaftLogEngine.html</loc>
-        <lastmod>2021-03-24</lastmod>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Load base split.html</loc>
+        <lastmod>2021-09-26</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Tombstone.html</loc>
-        <lastmod>2021-03-30</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Probe 表.html</loc>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Cascades Planner.html</loc>
         <lastmod>2021-04-01</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -724,99 +654,8 @@
     </url>
     
     <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Engine.html</loc>
-        <lastmod>2021-03-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/KvEngine.html</loc>
-        <lastmod>2021-03-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Offline.html</loc>
-        <lastmod>2021-03-30</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/RegionCache.html</loc>
-        <lastmod>2021-03-30</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/chunk-ListInDisk 文件.html</loc>
-        <lastmod>2021-03-30</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/CDC Endpoint.html</loc>
-        <lastmod>2021-04-07</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Snapshot.html</loc>
-        <lastmod>2021-04-01</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Column family.html</loc>
-        <lastmod>2021-03-31</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/TiDB Data Migration.html</loc>
-        <lastmod>2021-04-07</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/WaiterManager.html</loc>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Green GC.html</loc>
         <lastmod>2021-03-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/AmendSchema.html</loc>
-        <lastmod>2021-03-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Commit Index.html</loc>
-        <lastmod>2021-04-01</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Async commit.html</loc>
-        <lastmod>2021-04-01</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/CompactionFilter.html</loc>
-        <lastmod>2021-03-23</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -829,50 +668,22 @@
     </url>
     
     <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/tidb_executor_concurrency.html</loc>
-        <lastmod>2021-11-16</lastmod>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Down Peer.html</loc>
+        <lastmod>2021-03-19</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/内部一致性.html</loc>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/聚簇索引.html</loc>
         <lastmod>2021-03-18</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/MvccChecker.html</loc>
-        <lastmod>2021-11-16</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Reparo.html</loc>
-        <lastmod>2021-09-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/ReadPool.html</loc>
-        <lastmod>2021-04-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/DeltaTree.html</loc>
-        <lastmod>2021-04-07</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/遥测.html</loc>
-        <lastmod>2021-05-10</lastmod>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Command.html</loc>
+        <lastmod>2021-03-18</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -885,76 +696,6 @@
     </url>
     
     <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Short Value.html</loc>
-        <lastmod>2021-04-28</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Region Epoch.html</loc>
-        <lastmod>2021-09-26</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/服务级别目标.html</loc>
-        <lastmod>2021-04-22</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/ConcurrencyManager.html</loc>
-        <lastmod>2021-03-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Placement Rule.html</loc>
-        <lastmod>2021-04-01</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/PointGetter.html</loc>
-        <lastmod>2021-04-01</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Build 表.html</loc>
-        <lastmod>2021-04-01</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/AUTO_RANDOM.html</loc>
-        <lastmod>2021-08-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/min_commit_ts.html</loc>
-        <lastmod>2021-03-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/根据 Table ID 查询表名.html</loc>
-        <lastmod>2021-06-30</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
         <loc>https://longfangsong.github.io/tipedia/zh/what/服务级别指标.html</loc>
         <lastmod>2021-04-22</lastmod>
         <changefreq>monthly</changefreq>
@@ -962,77 +703,14 @@
     </url>
     
     <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/LockManager.html</loc>
-        <lastmod>2021-03-18</lastmod>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Memory Comparable Encoding.html</loc>
+        <lastmod>2021-04-30</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Follower Read.html</loc>
-        <lastmod>2021-04-01</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/TiPB.html</loc>
-        <lastmod>2021-03-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Operator-f5f4846e806f6bc8475f39c419dcc931.html</loc>
-        <lastmod>2021-03-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/autoID.html</loc>
-        <lastmod>2021-08-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/大沽路宪法.html</loc>
-        <lastmod>2021-03-18</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Cascades Planner.html</loc>
-        <lastmod>2021-04-01</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Super batch.html</loc>
-        <lastmod>2021-10-19</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/copyset.html</loc>
-        <lastmod>2021-03-31</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/ANALYZE TABLE.html</loc>
-        <lastmod>2021-11-03</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/tidb_guarantee_linearizability.html</loc>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Column-b1fb2562d61cb19ceadd92fd836d470b.html</loc>
         <lastmod>2021-03-31</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -1046,85 +724,274 @@
     </url>
     
     <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Retriever.html</loc>
-        <lastmod>2021-04-08</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Down.html</loc>
-        <lastmod>2021-03-30</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Engines.html</loc>
-        <lastmod>2021-11-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Scatter Range.html</loc>
-        <lastmod>2021-09-26</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/渡渡鸟.html</loc>
-        <lastmod>2021-05-20</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/configuration.html</loc>
-        <lastmod>2021-03-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Filter-096ad653af708bc1f0a69dfe8783d390.html</loc>
-        <lastmod>2021-03-29</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/分区表.html</loc>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Cursor.html</loc>
         <lastmod>2021-04-01</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Backoff.html</loc>
-        <lastmod>2021-04-21</lastmod>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Offline.html</loc>
+        <lastmod>2021-03-30</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/ingest sst.html</loc>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Filter.html</loc>
+        <lastmod>2021-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Transport.html</loc>
+        <lastmod>2021-04-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/TxStructure.html</loc>
+        <lastmod>2021-08-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/TiDB Data Migration.html</loc>
+        <lastmod>2021-04-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Special Query.html</loc>
+        <lastmod>2021-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/RaftLogEngine.html</loc>
+        <lastmod>2021-03-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/ordinary.html</loc>
+        <lastmod>2021-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Reparo.html</loc>
+        <lastmod>2021-09-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Follower Read.html</loc>
+        <lastmod>2021-04-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Context.html</loc>
+        <lastmod>2021-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/TableID.html</loc>
+        <lastmod>2021-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/服务级别目标.html</loc>
+        <lastmod>2021-04-22</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Disconnect.html</loc>
+        <lastmod>2021-03-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/RaftEngine-6b5e10990b8b2c66698577fffb42a4da.html</loc>
+        <lastmod>2021-03-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/chunk-ListInDisk 文件.html</loc>
+        <lastmod>2021-03-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Scheduler.html</loc>
+        <lastmod>2021-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/遥测.html</loc>
+        <lastmod>2021-05-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/tidb_executor_concurrency.html</loc>
+        <lastmod>2021-11-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/ConcurrencyManager.html</loc>
+        <lastmod>2021-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Session.html</loc>
+        <lastmod>2021-04-22</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/DeltaTree.html</loc>
+        <lastmod>2021-04-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/LockManager.html</loc>
+        <lastmod>2021-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/distinctScoreFilter.html</loc>
+        <lastmod>2021-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/ReadPool.html</loc>
+        <lastmod>2021-04-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/动态裁剪模式.html</loc>
+        <lastmod>2021-08-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Massive Parallel Processing.html</loc>
+        <lastmod>2021-04-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/CompactionFilter.html</loc>
+        <lastmod>2021-03-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Placement Rule.html</loc>
+        <lastmod>2021-04-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Protected Rollback.html</loc>
+        <lastmod>2021-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Index Nested Loop Merge Join.html</loc>
+        <lastmod>2021-04-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Compation.html</loc>
+        <lastmod>2021-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Write Stall.html</loc>
+        <lastmod>2021-05-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Apply.html</loc>
+        <lastmod>2021-04-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Short Value.html</loc>
+        <lastmod>2021-04-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/General Availability.html</loc>
+        <lastmod>2021-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Modify.html</loc>
         <lastmod>2021-03-31</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/eraftpb.html</loc>
-        <lastmod>2021-03-24</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>https://longfangsong.github.io/tipedia/zh/what/Follower forward request.html</loc>
-        <lastmod>2021-03-24</lastmod>
+        <loc>https://longfangsong.github.io/tipedia/zh/what/Relay Log.html</loc>
+        <lastmod>2021-08-23</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -1138,6 +1005,146 @@
     
     <url>
         <loc>https://longfangsong.github.io/tipedia/zh/why/pd-on-etcd.html</loc>
+        <lastmod>2021-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what_if/all-pd-went-down.html</loc>
+        <lastmod>2021-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what_if/向刚刚成为 leader，还未完成 TSO 的同步 - 初始化的 PD 请求了 TSO.html</loc>
+        <lastmod>2021-03-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/what_if/向非 leader 的 PD 请求了 TSO.html</loc>
+        <lastmod>2021-03-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/where/TiDB 建表.html</loc>
+        <lastmod>2021-05-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/where/TiDB 处理SQL.html</loc>
+        <lastmod>2021-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/where/计算 SafePoint.html</loc>
+        <lastmod>2021-03-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/where/TiDB 在 Commit 过程中拿 CommitTS.html</loc>
+        <lastmod>2021-11-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/where/PD 开启 etcd.html</loc>
+        <lastmod>2021-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/where/Hash Join 时遇到内存不足时将数据 spill 到磁盘.html</loc>
+        <lastmod>2021-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/where/PD 选主.html</loc>
+        <lastmod>2021-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/where/TiDB 发送查其他 TiDB 内存表的请求.html</loc>
+        <lastmod>2021-11-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/how/AddInfoTable.html</loc>
+        <lastmod>2021-03-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/how/如何通过 TiDB 的 HTTP API 启用 failpoint.html</loc>
+        <lastmod>2021-11-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/how/迁移组件的数据目录.html</loc>
+        <lastmod>2021-04-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/how/阅读 TiDB Dashboard 中的流量可视化页面.html</loc>
+        <lastmod>2021-03-29</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/how/创建一张分布在多个 TiKV.html</loc>
+        <lastmod>2021-05-26</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/how/查询某张表分布在哪些 store 上.html</loc>
+        <lastmod>2021-04-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/how/运行TiDBPD中的单个test.html</loc>
+        <lastmod>2021-04-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/how/TiDB是如何将表中的行、列数据映射到KV的.html</loc>
+        <lastmod>2021-06-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://longfangsong.github.io/tipedia/zh/how/启用 Golang 代码中的某个 FailPoint .html</loc>
         <lastmod>2021-03-18</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
