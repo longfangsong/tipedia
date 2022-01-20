@@ -7,7 +7,7 @@ author: longfangsong
 last_update: 2022-01-20T05:13:52Z
 ---
 
-# 词条名
+# TiKV 在哪里将下推的 Request 中的 Data 解析为 DAG
 
 观察 [`coprocessor::Request`](https://www.tikv.dev/doc/rust-client/tikv_client_proto/coprocessor/struct.Request.html), 可以发现他带了一个二进制的数据 data，而 TiKV 处理的 coprocessor 应当是一个 DAG。
 
